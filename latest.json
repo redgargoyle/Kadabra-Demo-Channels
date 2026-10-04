@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-04T21:57:51.820Z",
+  "games": {
+    "golden-ocean": {
+      "title": "The Golden Ocean",
+      "tag": "v0.7.5-desktop-20260930",
+      "updatedAt": "2026-09-30",
+      "webDemo": "/demos/golden-ocean/",
+      "webDemoLabel": "Play in your browser",
+      "webDemoPrimary": true,
+      "statusNote": "Download the complete Windows or Linux demo, extract it, and start the game. No additional runtime installation is needed.",
+      "buildNotes": [],
+      "knownPublished": true,
+      "directAssets": {
+        "windows": {
+          "name": "GoldenOcean-Windows-20260930.zip",
+          "url": "https://github.com/redgargoyle/Golden-Ocean-Releases/releases/download/v0.7.5-desktop-20260930/GoldenOcean-Windows-20260930.zip",
+          "sizeBytes": 1050033238,
+          "sha256": "4ee6ae9079c464d9982bba56e1d5cff76d00a14ad609f60bf2ff1e6f759dcac7",
+          "version": "v0.7.5-desktop-20260930"
+        },
+        "linux": {
+          "name": "GoldenOcean-Linux-20260930.tar.gz",
+          "url": "https://github.com/redgargoyle/Golden-Ocean-Releases/releases/download/v0.7.5-desktop-20260930/GoldenOcean-Linux-20260930.tar.gz",
+          "sizeBytes": 996946000,
+          "sha256": "bcd35d6d555b2138000341cfad6c87c951d8707c5a8b7a679c7130f5b5417371",
+          "version": "v0.7.5-desktop-20260930"
+        }
+      },
+      "repo": "redgargoyle/Golden-Ocean-Releases",
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/Golden-Ocean-Releases/releases/tag/v0.7.5-desktop-20260930"
+    },
+    "chantilly": {
+      "title": "Chantilly",
+      "tag": "September 30 cursor update",
+      "updatedAt": "2026-09-30",
+      "freshLabel": "DEMO",
+      "statusNote": "Windows and Linux demo with the corrected menu cursor and current entrance hall. The macOS download remains the earlier July release.",
+      "directAssets": {
+        "linux": {
+          "name": "Chantilly-Linux-20260930-dc0812b.tar.gz",
+          "url": "https://github.com/redgargoyle/Chantilly-Releases/releases/download/v2026.09.30-cursor/Chantilly-Linux-20260930-dc0812b.tar.gz",
+          "sizeBytes": 275368198,
+          "sha256": "82867e2b09ddcc9269527b426e070e34317f5866d17ed81f88127ea17b24a388",
+          "version": "September 30 cursor update"
+        },
+        "windows": {
+          "name": "Chantilly-Windows-20260930-dc0812b.zip",
+          "url": "https://github.com/redgargoyle/Chantilly-Releases/releases/download/v2026.09.30-cursor/Chantilly-Windows-20260930-dc0812b.zip",
+          "sizeBytes": 279573481,
+          "sha256": "f42d1986480a618c42633ef9f67b3f8203e4fb74a9c50697612f18088bf21688",
+          "version": "September 30 cursor update"
+        },
+        "macos": {
+          "name": "Chantilly-macOS.zip",
+          "url": "https://github.com/redgargoyle/Chantilly-Releases/releases/download/v0.1.0/Chantilly-macOS.zip",
+          "sizeBytes": 285425306,
+          "sha256": "6f6c4115d85f4ebdd258be706c63c915338b6621a3aeb516452c9dc44c150ee3",
+          "version": "v0.1.0"
+        }
+      },
+      "repo": "redgargoyle/Chantilly-Releases",
+      "knownPublished": true,
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/Chantilly-Releases/releases/tag/v2026.09.30-cursor"
+    },
+    "golden-keep-rts": {
+      "title": "The Golden Keep: Forces of Darkness",
+      "tag": "0.7.5-preview.4",
+      "updatedAt": "2026-09-30",
+      "freshLabel": "DEMO",
+      "statusNote": "September 30 preview for Windows and Linux. Repairs tree backgrounds and includes the current six campaign chapters for each race. Download and extract before playing.",
+      "directAssets": {
+        "windows": {
+          "name": "Goldenkeep-0.7.5-preview.4-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.7.5-preview.4/Goldenkeep-0.7.5-preview.4-Windows.zip",
+          "sizeBytes": 515455223,
+          "sha256": "a74040e0fe13795b2dd48c590e54269087765ebb10899519ca380ec5dda66eb4",
+          "version": "0.7.5-preview.4"
+        },
+        "linux": {
+          "name": "Goldenkeep-0.7.5-preview.4-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.7.5-preview.4/Goldenkeep-0.7.5-preview.4-Linux.tar.gz",
+          "sizeBytes": 512378584,
+          "sha256": "7717b579a9bf610b4bb8cd00f2c0cc726404f2eadcfab6fdd5f0b5dc38c7c630",
+          "version": "0.7.5-preview.4"
+        }
+      },
+      "repo": "redgargoyle/Goldenkeep-Releases",
+      "webDemo": "",
+      "webDemoPrimary": false,
+      "knownPublished": true,
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.7.5-preview.4"
+    },
+    "dark-between-stations": {
+      "title": "The Dark Between Stations",
+      "tag": "September 30 audio update",
+      "updatedAt": "2026-09-30",
+      "freshLabel": "DEMO",
+      "statusNote": "Windows and Linux demo with improved ambience and sound playback. Early horror prototype; the full campaign remains in development.",
+      "directAssets": {
+        "windows": {
+          "name": "TheDarkBetweenStations-Windows-20260930-d88af94.zip",
+          "url": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/download/v2026.09.30-audio/TheDarkBetweenStations-Windows-20260930-d88af94.zip",
+          "sizeBytes": 121028667,
+          "sha256": "f289db7a07ef0738308d8f961f30ebbe0bc824a3fe013dff0ffea674901f8e6e",
+          "version": "September 30 audio update"
+        },
+        "linux": {
+          "name": "TheDarkBetweenStations-Linux-20260930-33f3acb.tar.gz",
+          "url": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/download/v2026.09.30-audio/TheDarkBetweenStations-Linux-20260930-33f3acb.tar.gz",
+          "sizeBytes": 117845634,
+          "sha256": "d5399c64c666aa7d0018adbedd0529cb18d92d6f3e1f8824d06b8e699eb6ba4d",
+          "version": "September 30 audio update"
+        }
+      },
+      "repo": "redgargoyle/The-Dark-Between-Stations-Releases",
+      "knownPublished": true,
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/tag/v2026.09.30-audio"
+    },
+    "cliff-cities": {
+      "title": "The Golden Cliffs",
+      "tag": "v2026.09.30-walking",
+      "updatedAt": "2026-09-30",
+      "freshLabel": "DEMO",
+      "statusNote": "Windows and Linux climbing lesson and exploration slice with the September 30 walking update. Start with Find Your Feet. The complete route and Windows playthrough still need testing.",
+      "directAssets": {
+        "windows": {
+          "name": "TheCliffCities-Windows-20260930-622e8e9.zip",
+          "url": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/download/v2026.09.30-walking/TheCliffCities-Windows-20260930-622e8e9.zip",
+          "sizeBytes": 106638982,
+          "sha256": "39286f8bc34559d484b6832d99e417adee1e27c937b950ac4896066333fd2f42",
+          "version": "v2026.09.30-walking"
+        },
+        "linux": {
+          "name": "TheCliffCities-Linux-20260930-622e8e9.tar.gz",
+          "url": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/download/v2026.09.30-walking/TheCliffCities-Linux-20260930-622e8e9.tar.gz",
+          "sizeBytes": 109081580,
+          "sha256": "82b7164c3178bc1bb888ef399ce1a23e39ce8e1577c8f22914e13865dd1fa798",
+          "version": "v2026.09.30-walking"
+        }
+      },
+      "repo": "redgargoyle/The-Cliff-Cities-Releases",
+      "knownPublished": true,
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/tag/v2026.09.30-walking"
+    },
+    "jabberwocky": {
+      "title": "Jabberwocky",
+      "tag": "October 3 authored-world development demo",
+      "updatedAt": "2026-10-03",
+      "freshLabel": "DEMO",
+      "statusNote": "October 3 development demo: the authored world, regional injuries, finite treatment, wind flight, Skyfall and swimming. Prototype animation and performance need further testing. Windows play still needs testing on a Windows PC.",
+      "directAssets": {
+        "linux": {
+          "name": "Jabberwocky-2026-10-03-3a0193d5-Linux.zip",
+          "url": "https://kadabra-video-library-review.amcorblue.chatgpt.site/downloads/Jabberwocky-2026-10-03-3a0193d5-Linux.zip",
+          "sizeBytes": 2181344648,
+          "sha256": "24f717dbc9df048e90fb2a17ee89e0624e0206ffa749241312d397fb0c91df8d",
+          "version": "October 3 authored-world development demo"
+        },
+        "windows": {
+          "name": "Jabberwocky-2026-10-03-3a0193d5-Windows.zip",
+          "url": "https://kadabra-video-library-review.amcorblue.chatgpt.site/downloads/Jabberwocky-2026-10-03-3a0193d5-Windows.zip",
+          "sizeBytes": 2168399133,
+          "sha256": "2fda3444a84d1848cbe8240a8caded77a6adf524d4956c3e6e92443fbd250a19",
+          "version": "October 3 authored-world development demo"
+        }
+      },
+      "repo": "",
+      "knownPublished": true,
+      "packagingReviewedAt": "2026-09-30",
+      "assets": {},
+      "releasePage": ""
+    },
+    "your-happy-place": {
+      "tag": "v0.1.0",
+      "updatedAt": "2026-10-03",
+      "statusNote": "Public Windows and Linux demo updated October 3. macOS remains the earlier v0.1.0 release. Extract the complete archive before launching.",
+      "directAssets": {
+        "linux": {
+          "name": "YourHappyPlace-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Linux.tar.gz",
+          "sizeBytes": 855445317,
+          "sha256": "de3b97b34cd1adc05244940f4d961971dc3591dd88970befa40906298bf08357",
+          "version": "v0.1.0"
+        },
+        "windows": {
+          "name": "YourHappyPlace-Windows.zip",
+          "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Windows.zip",
+          "sizeBytes": 852985739,
+          "sha256": "3ee889cfc8eda89348231c87cf06fb19563ab6deb9aa1087e9570d071b5cab93",
+          "version": "v0.1.0"
+        },
+        "macos": {
+          "name": "YourHappyPlace-macOS.zip",
+          "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-macOS.zip",
+          "sizeBytes": 825080744,
+          "sha256": "7dad90e9df4d929215f4e94fe63131c0a517ebbdf2db45e34159e1ce97aeeb4c",
+          "version": "v0.1.0"
+        }
+      },
+      "packagingReviewedAt": "2026-09-30",
+      "repo": "redgargoyle/YourHappyPlace-Releases",
+      "knownPublished": true,
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/tag/v0.1.0"
+    },
+    "inhospitable": {
+      "tag": "v0.1.0-polish.9159c1e",
+      "updatedAt": "2026-10-01",
+      "statusNote": "October 1 Windows and Linux development demo. The macOS download remains the earlier v0.1.0 release. See build notes for the exact version.",
+      "directAssets": {
+        "linux": {
+          "name": "Inhospitable-Expedition-9159c1e-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0-polish.9159c1e/Inhospitable-Expedition-9159c1e-Linux.tar.gz",
+          "sizeBytes": 208887240,
+          "sha256": "ae458e702f5f8e11ea51176e37abd26854550fb99213115606501c237a5aef84",
+          "version": "v0.1.0-polish.9159c1e"
+        },
+        "windows": {
+          "name": "Inhospitable-Expedition-9159c1e-Windows.zip",
+          "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0-polish.9159c1e/Inhospitable-Expedition-9159c1e-Windows.zip",
+          "sizeBytes": 210001861,
+          "sha256": "5baeb48004bc22613fb3f3901cb3d43eaa64cda69e8fc9c5ff8f8d39c1b7c09c",
+          "version": "v0.1.0-polish.9159c1e"
+        },
+        "macos": {
+          "name": "inhospitable-demo-macos-universal.zip",
+          "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0/inhospitable-demo-macos-universal.zip",
+          "sizeBytes": 163998878,
+          "sha256": "c65acac9f1ef7373b89d2587257c13df5d6f203b5e1cc92295c7fa8cdd6f9f19",
+          "version": "v0.1.0"
+        }
+      },
+      "packagingReviewedAt": "2026-09-30",
+      "repo": "redgargoyle/Inhospitable-Releases",
+      "knownPublished": true,
+      "assets": {},
+      "releasePage": "https://github.com/redgargoyle/Inhospitable-Releases/releases/tag/v0.1.0-polish.9159c1e"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "approvedExternalAssets": {
+    "jabberwocky": {
+      "windows": [
+        "https://kadabra-video-library-review.amcorblue.chatgpt.site/downloads/Jabberwocky-2026-10-03-3a0193d5-Windows.zip"
+      ],
+      "linux": [
+        "https://kadabra-video-library-review.amcorblue.chatgpt.site/downloads/Jabberwocky-2026-10-03-3a0193d5-Linux.zip"
+      ]
+    }
+  }
+}
