@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T21:57:51.820Z",
+  "updatedAt": "2026-10-04T22:26:24Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.7.5-preview.4",
-      "updatedAt": "2026-09-30",
+      "tag": "0.9.1-racial-strategy.1",
+      "updatedAt": "2026-10-04",
       "freshLabel": "DEMO",
-      "statusNote": "September 30 preview for Windows and Linux. Repairs tree backgrounds and includes the current six campaign chapters for each race. Download and extract before playing.",
+      "statusNote": "October 4 development demo: Jack contracts and Honor, Orc squads, mobile Gargoyle teachers, optional town policies and conservative paid opponent strategies. Windows runtime play still needs a Windows PC test.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.7.5-preview.4-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.7.5-preview.4/Goldenkeep-0.7.5-preview.4-Windows.zip",
-          "sizeBytes": 515455223,
-          "sha256": "a74040e0fe13795b2dd48c590e54269087765ebb10899519ca380ec5dda66eb4",
-          "version": "0.7.5-preview.4"
+          "name": "Goldenkeep-0.9.1-racial-strategy.1-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.1-racial-strategy.1/Goldenkeep-0.9.1-racial-strategy.1-Windows.zip",
+          "sizeBytes": 566956793,
+          "sha256": "758b8fd9d352a420bd02b9197706af119005e9830aba1eb8327d21ad92a13753",
+          "version": "0.9.1-racial-strategy.1"
         },
         "linux": {
-          "name": "Goldenkeep-0.7.5-preview.4-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.7.5-preview.4/Goldenkeep-0.7.5-preview.4-Linux.tar.gz",
-          "sizeBytes": 512378584,
-          "sha256": "7717b579a9bf610b4bb8cd00f2c0cc726404f2eadcfab6fdd5f0b5dc38c7c630",
-          "version": "0.7.5-preview.4"
+          "name": "Goldenkeep-0.9.1-racial-strategy.1-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.1-racial-strategy.1/Goldenkeep-0.9.1-racial-strategy.1-Linux.tar.gz",
+          "sizeBytes": 563941544,
+          "sha256": "6bc4f8907b8d5da637ebdd72b12a731544c953126d837acf2ca2e4d175c36b68",
+          "version": "0.9.1-racial-strategy.1"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.7.5-preview.4"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.1-racial-strategy.1"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
