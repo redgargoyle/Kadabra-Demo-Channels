@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T22:26:24Z",
+  "updatedAt": "2026-10-05T04:38:45Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.1-racial-strategy.1",
-      "updatedAt": "2026-10-04",
+      "tag": "0.9.2-development-clarity.1",
+      "updatedAt": "2026-10-05",
       "freshLabel": "DEMO",
-      "statusNote": "October 4 development demo: Jack contracts and Honor, Orc squads, mobile Gargoyle teachers, optional town policies and conservative paid opponent strategies. Windows runtime play still needs a Windows PC test.",
+      "statusNote": "Training clarity demo: current-set progress, exact payments and permanent gains; nearby AI defender reserves and immediate two-set stopping. Windows runtime play still needs a Windows PC test.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.1-racial-strategy.1-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.1-racial-strategy.1/Goldenkeep-0.9.1-racial-strategy.1-Windows.zip",
-          "sizeBytes": 566956793,
-          "sha256": "758b8fd9d352a420bd02b9197706af119005e9830aba1eb8327d21ad92a13753",
-          "version": "0.9.1-racial-strategy.1"
+          "name": "Goldenkeep-0.9.2-development-clarity.1-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.2-development-clarity.1/Goldenkeep-0.9.2-development-clarity.1-Windows.zip",
+          "sizeBytes": 566962226,
+          "sha256": "3f27e207274c07771a0854f49c4615162406b3b547793f772e9efda8475da780",
+          "version": "0.9.2-development-clarity.1"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.1-racial-strategy.1-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.1-racial-strategy.1/Goldenkeep-0.9.1-racial-strategy.1-Linux.tar.gz",
-          "sizeBytes": 563941544,
-          "sha256": "6bc4f8907b8d5da637ebdd72b12a731544c953126d837acf2ca2e4d175c36b68",
-          "version": "0.9.1-racial-strategy.1"
+          "name": "Goldenkeep-0.9.2-development-clarity.1-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.2-development-clarity.1/Goldenkeep-0.9.2-development-clarity.1-Linux.tar.gz",
+          "sizeBytes": 563934725,
+          "sha256": "93c7ac6ed72034406932a01fbc1b1120925cf6652711777b8f31b4a7d4bdfd8f",
+          "version": "0.9.2-development-clarity.1"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.1-racial-strategy.1"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.2-development-clarity.1"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
