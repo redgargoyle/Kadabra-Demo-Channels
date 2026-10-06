@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T04:38:45Z",
+  "updatedAt": "2026-10-06T01:44:30Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.2-development-clarity.1",
-      "updatedAt": "2026-10-05",
+      "tag": "0.9.3-world-sound.1",
+      "updatedAt": "2026-10-06",
       "freshLabel": "DEMO",
-      "statusNote": "Training clarity demo: current-set progress, exact payments and permanent gains; nearby AI defender reserves and immediate two-set stopping. Windows runtime play still needs a Windows PC test.",
+      "statusNote": "World light, weather, creature sound and clearer training. Windows receiving-PC play still needs testing.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.2-development-clarity.1-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.2-development-clarity.1/Goldenkeep-0.9.2-development-clarity.1-Windows.zip",
-          "sizeBytes": 566962226,
-          "sha256": "3f27e207274c07771a0854f49c4615162406b3b547793f772e9efda8475da780",
-          "version": "0.9.2-development-clarity.1"
+          "name": "Goldenkeep-0.9.3-world-sound.1-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.3-world-sound.1/Goldenkeep-0.9.3-world-sound.1-Windows.zip",
+          "sizeBytes": 574987629,
+          "sha256": "bf7cc031314c199891c75f7054ccaf42fa580f8d18f883fbb936cc7201bbf2b4",
+          "version": "0.9.3-world-sound.1"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.2-development-clarity.1-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.2-development-clarity.1/Goldenkeep-0.9.2-development-clarity.1-Linux.tar.gz",
-          "sizeBytes": 563934725,
-          "sha256": "93c7ac6ed72034406932a01fbc1b1120925cf6652711777b8f31b4a7d4bdfd8f",
-          "version": "0.9.2-development-clarity.1"
+          "name": "Goldenkeep-0.9.3-world-sound.1-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.3-world-sound.1/Goldenkeep-0.9.3-world-sound.1-Linux.tar.gz",
+          "sizeBytes": 571958429,
+          "sha256": "25ee931cc65216acf42512ef028ed9c63f297f18f21d854540d81bd5f4590203",
+          "version": "0.9.3-world-sound.1"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.2-development-clarity.1"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.3-world-sound.1"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
