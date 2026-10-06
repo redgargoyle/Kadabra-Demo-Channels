@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T01:44:30Z",
+  "updatedAt": "2026-10-06T04:09:38Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.3-world-sound.1",
+      "tag": "0.9.4-combat-polish.1",
       "updatedAt": "2026-10-06",
       "freshLabel": "DEMO",
-      "statusNote": "World light, weather, creature sound and clearer training. Windows receiving-PC play still needs testing.",
+      "statusNote": "Combat and training polish: paired verified builds, clearer lessons and portraits, bounded creature voices and live weather volume. Normal Linux control checks passed; creator listening and Windows receiving-PC play remain pending.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.3-world-sound.1-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.3-world-sound.1/Goldenkeep-0.9.3-world-sound.1-Windows.zip",
-          "sizeBytes": 574987629,
-          "sha256": "bf7cc031314c199891c75f7054ccaf42fa580f8d18f883fbb936cc7201bbf2b4",
-          "version": "0.9.3-world-sound.1"
+          "name": "Goldenkeep-0.9.4-combat-polish.1-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.4-combat-polish.1/Goldenkeep-0.9.4-combat-polish.1-Windows.zip",
+          "sizeBytes": 575001855,
+          "sha256": "ebac3e857d7ed6bfff8154a05cec97f2e1a64b0c493f2b8c687a71b1a58e67e0",
+          "version": "0.9.4-combat-polish.1"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.3-world-sound.1-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.3-world-sound.1/Goldenkeep-0.9.3-world-sound.1-Linux.tar.gz",
-          "sizeBytes": 571958429,
-          "sha256": "25ee931cc65216acf42512ef028ed9c63f297f18f21d854540d81bd5f4590203",
-          "version": "0.9.3-world-sound.1"
+          "name": "Goldenkeep-0.9.4-combat-polish.1-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.4-combat-polish.1/Goldenkeep-0.9.4-combat-polish.1-Linux.tar.gz",
+          "sizeBytes": 571971009,
+          "sha256": "43a171975ce20659740fe9e3ccf93342a9380992fcee69dd3500bdd74ec605b8",
+          "version": "0.9.4-combat-polish.1"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.3-world-sound.1"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.4-combat-polish.1"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
