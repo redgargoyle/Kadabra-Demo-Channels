@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T10:48:52Z",
+  "updatedAt": "2026-10-07T14:13:38Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.10-world-camps.3",
+      "tag": "0.9.10-world-camps.6",
       "updatedAt": "2026-10-07",
       "freshLabel": "DEMO",
-      "statusNote": "Development demo: independent camps, limited paid allies and raids; original woodland art; minimap movement and rally fixes; three illustrated talent specialties and creature growls. Matching verified Windows/Linux pair. Final 1.0 acceptance remains open.",
+      "statusNote": "Development demo: hover-only illustrated talent ranks, grounded woodland details and animated wildlife, neutral councils, preserved saves and verified matching players. Physical Windows/multiplayer, creator listening/art, extended balance and volumetric buildings remain open.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.10-world-camps.3-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.10-world-camps.3/Goldenkeep-0.9.10-world-camps.3-Windows.zip",
-          "sizeBytes": 610557095,
-          "sha256": "7425da641b8f7f3b265eb1f47bf5746a5b0830175d643b0f002b29a69734ecdd",
-          "version": "0.9.10-world-camps.3"
+          "name": "Goldenkeep-0.9.10-world-camps.6-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.10-world-camps.6/Goldenkeep-0.9.10-world-camps.6-Windows.zip",
+          "sizeBytes": 610760731,
+          "sha256": "bb4793e5c9a3ccfbeb97841247f33be36fccd251cc372f59806297e465e01e00",
+          "version": "0.9.10-world-camps.6"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.10-world-camps.3-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.10-world-camps.3/Goldenkeep-0.9.10-world-camps.3-Linux.tar.gz",
-          "sizeBytes": 607534755,
-          "sha256": "58bb25c6e8dae42ae95ae7c4fb56f95889bb955ae74fcbe614042a2007cfa519",
-          "version": "0.9.10-world-camps.3"
+          "name": "Goldenkeep-0.9.10-world-camps.6-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.10-world-camps.6/Goldenkeep-0.9.10-world-camps.6-Linux.tar.gz",
+          "sizeBytes": 607737739,
+          "sha256": "229cf63ed023e200961f89e997ca63071b54388951b9ee887cc4a581a5bdf847",
+          "version": "0.9.10-world-camps.6"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.10-world-camps.3"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.10-world-camps.6"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
