@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T07:24:29Z",
+  "updatedAt": "2026-10-07T01:04:56Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.5-field-presence.1",
-      "updatedAt": "2026-10-06",
+      "tag": "0.9.6-training-craft.2",
+      "updatedAt": "2026-10-07",
       "freshLabel": "DEMO",
-      "statusNote": "28% smaller field units, grounded building effects and 48 matched interiors. Clear paid-training quotes; inspected ordinary save/reload. Windows play and creator listening remain pending.",
+      "statusNote": "Training craft demo: modeled eight-view exercise equipment, clearer chosen-place controls and readable trainees. Paid progress and save/reload checked; final art, listening, campaign and target-machine review continue.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.5-field-presence.1-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.5-field-presence.1/Goldenkeep-0.9.5-field-presence.1-Windows.zip",
-          "sizeBytes": 586946377,
-          "sha256": "bd8f6e79be8fd0040739b43559f33eac1227cf1960701fdd2a46c231c7095dfc",
-          "version": "0.9.5-field-presence.1"
+          "name": "Goldenkeep-0.9.6-training-craft.2-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.6-training-craft.2/Goldenkeep-0.9.6-training-craft.2-Windows.zip",
+          "sizeBytes": 588913872,
+          "sha256": "63b34b6b9b28d7d5c22d980f2999cd0995582ea2ad21deebe49233d2e36c9f25",
+          "version": "0.9.6-training-craft.2"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.5-field-presence.1-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.5-field-presence.1/Goldenkeep-0.9.5-field-presence.1-Linux.tar.gz",
-          "sizeBytes": 583910428,
-          "sha256": "863abfbafb020e9af2731ad881ea38db36d3213a2fc7b78367d7273d01dc5928",
-          "version": "0.9.5-field-presence.1"
+          "name": "Goldenkeep-0.9.6-training-craft.2-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.6-training-craft.2/Goldenkeep-0.9.6-training-craft.2-Linux.tar.gz",
+          "sizeBytes": 585875167,
+          "sha256": "2e18b266597cea91aeb3fb3b33be47cee0397e9d3ee2860b674e855950bdbf7b",
+          "version": "0.9.6-training-craft.2"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.5-field-presence.1"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.6-training-craft.2"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
