@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T01:04:56Z",
+  "updatedAt": "2026-10-07T02:38:19Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.6-training-craft.2",
+      "tag": "0.9.7-exercise-motion.4",
       "updatedAt": "2026-10-07",
       "freshLabel": "DEMO",
-      "statusNote": "Training craft demo: modeled eight-view exercise equipment, clearer chosen-place controls and readable trainees. Paid progress and save/reload checked; final art, listening, campaign and target-machine review continue.",
+      "statusNote": "Development prerelease: native lifting, striking, bracing and footwork for all 36 eligible people; grounded equipment contact and readable exercise poses. Full campaign, listening, balance and target-machine review remain underway.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.6-training-craft.2-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.6-training-craft.2/Goldenkeep-0.9.6-training-craft.2-Windows.zip",
-          "sizeBytes": 588913872,
-          "sha256": "63b34b6b9b28d7d5c22d980f2999cd0995582ea2ad21deebe49233d2e36c9f25",
-          "version": "0.9.6-training-craft.2"
+          "name": "Goldenkeep-0.9.7-exercise-motion.4-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.7-exercise-motion.4/Goldenkeep-0.9.7-exercise-motion.4-Windows.zip",
+          "sizeBytes": 608224882,
+          "sha256": "94447645c3eebfb4be8dfa3a69fdcbe0289fcd063494e91e44735fcb272c834e",
+          "version": "0.9.7-exercise-motion.4"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.6-training-craft.2-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.6-training-craft.2/Goldenkeep-0.9.6-training-craft.2-Linux.tar.gz",
-          "sizeBytes": 585875167,
-          "sha256": "2e18b266597cea91aeb3fb3b33be47cee0397e9d3ee2860b674e855950bdbf7b",
-          "version": "0.9.6-training-craft.2"
+          "name": "Goldenkeep-0.9.7-exercise-motion.4-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.7-exercise-motion.4/Goldenkeep-0.9.7-exercise-motion.4-Linux.tar.gz",
+          "sizeBytes": 605192671,
+          "sha256": "efc3ab62ac94a7a2a383c1d7a0cebeb21d38f27b6898be67b5b44e6dd3973a78",
+          "version": "0.9.7-exercise-motion.4"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.6-training-craft.2"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.7-exercise-motion.4"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
