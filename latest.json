@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T02:38:19Z",
+  "updatedAt": "2026-10-07T07:58:01Z",
   "games": {
     "golden-ocean": {
       "title": "The Golden Ocean",
@@ -68,24 +68,24 @@
     },
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
-      "tag": "0.9.7-exercise-motion.4",
+      "tag": "0.9.9-living-talents.5",
       "updatedAt": "2026-10-07",
       "freshLabel": "DEMO",
-      "statusNote": "Development prerelease: native lifting, striking, bracing and footwork for all 36 eligible people; grounded equipment contact and readable exercise poses. Full campaign, listening, balance and target-machine review remain underway.",
+      "statusNote": "Development demo: illustrated action-guided talents, original creature calls, improved camera controls. Windows receiving-machine play, physical multiplayer, creator listening/art and extended balance remain in review.",
       "directAssets": {
         "windows": {
-          "name": "Goldenkeep-0.9.7-exercise-motion.4-Windows.zip",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.7-exercise-motion.4/Goldenkeep-0.9.7-exercise-motion.4-Windows.zip",
-          "sizeBytes": 608224882,
-          "sha256": "94447645c3eebfb4be8dfa3a69fdcbe0289fcd063494e91e44735fcb272c834e",
-          "version": "0.9.7-exercise-motion.4"
+          "name": "Goldenkeep-0.9.9-living-talents.5-Windows.zip",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.9-living-talents.5/Goldenkeep-0.9.9-living-talents.5-Windows.zip",
+          "sizeBytes": 610411061,
+          "sha256": "cdba6969c986aaa8adfd1bf6e3f4e7ee72f2a8a69f090f14e7684b1ca204cf77",
+          "version": "0.9.9-living-talents.5"
         },
         "linux": {
-          "name": "Goldenkeep-0.9.7-exercise-motion.4-Linux.tar.gz",
-          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.7-exercise-motion.4/Goldenkeep-0.9.7-exercise-motion.4-Linux.tar.gz",
-          "sizeBytes": 605192671,
-          "sha256": "efc3ab62ac94a7a2a383c1d7a0cebeb21d38f27b6898be67b5b44e6dd3973a78",
-          "version": "0.9.7-exercise-motion.4"
+          "name": "Goldenkeep-0.9.9-living-talents.5-Linux.tar.gz",
+          "url": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/download/v0.9.9-living-talents.5/Goldenkeep-0.9.9-living-talents.5-Linux.tar.gz",
+          "sizeBytes": 607374018,
+          "sha256": "e033594ba67f3fd2753b5d14653c2900b0b7d6bf60db1d3ce096cc05b57bb184",
+          "version": "0.9.9-living-talents.5"
         }
       },
       "repo": "redgargoyle/Goldenkeep-Releases",
@@ -93,7 +93,7 @@
       "webDemoPrimary": false,
       "knownPublished": true,
       "assets": {},
-      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.7-exercise-motion.4"
+      "releasePage": "https://github.com/redgargoyle/Goldenkeep-Releases/releases/tag/v0.9.9-living-talents.5"
     },
     "dark-between-stations": {
       "title": "The Dark Between Stations",
