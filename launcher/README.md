@@ -1,16 +1,27 @@
-# Kadabra Launcher preview distribution
+# Kadabra launcher and permanent game release records
 
-This directory is the separate signed launcher catalog. The existing eight-game website `latest.json` remains independent.
+The desktop launcher is a separate application for Linux, Windows and macOS. It reads the signed TUF catalog under `v1/`. The website reads the Stable selections in `latest.json` in this directory. Both publications are generated from the reviewed `catalog-source.json` by the same GitHub workflow.
 
+- `catalog-source.json`: reviewed game metadata and immutable, qualified packages.
 - `v1/metadata/`: TUF root, timestamp, snapshot and targets metadata.
-- `v1/targets/`: content-addressed public player catalogs.
-- `catalog-source.json`: reviewed public game and package records used by the publisher.
-- `publisher/`: publisher code using the maintained TUF model library. Its online signing keys are GitHub Actions secrets; root keys are retained separately by the operator and are never committed.
+- `v1/targets/`: content-addressed player catalogs.
+- `latest.json`: all game records, with distinct Preview and Stable choices.
+- `latest/<game-id>.json`: permanent per-game record address.
+- `website-stable-baseline.json`: initial public website choices preserved during migration.
+- `publisher/`: signing/pointer generation code and focused channel tests.
 
-The scheduled workflow renews the preview metadata every12 hours; freshness expires after3 days. An expired catalog prevents new installs/updates while installed games remain playable. Failures must be resolved before expiry. GitHub's scheduler is not an uptime guarantee.
+A reviewed Preview proposal updates the launcher preview choice without overwriting an existing public website release. A reviewed Stable proposal also advances the website pointer to the exact selected archive. Adding a new preview game does not create a public Stable release. A rollback is a new reviewed higher catalog revision selecting an earlier compatible package; old archives are never overwritten.
 
-Package archive qualification, OS runtime acceptance, creator acceptance and signing/notarization are distinct checks. Preview metadata does not imply Windows/macOS acceptance. At the initial milestone Pixie Garden Linux and the platform-independent Poot-Poot browser archive have been checked; native packages for other games are still being qualified.
+Website links stay fixed:
 
-To change a release: review the private command-center proposal, qualify the exact archive and its save/launch contract, then commit the reviewed public records to `catalog-source.json` and run the publisher workflow. Reusing a package ID for different bytes or launch parameters is rejected. A game rollback is a new higher catalog revision selecting the earlier compatible package.
+`https://kadabra.games/downloads/<game-id>/latest/linux`
 
-Root renewal and recovery are operator tasks and cannot be accomplished by the online-only renewal job. Back up root keys securely and renew/rotate root well before expiry.
+Replace `linux` with `windows`, `macos`, or `web`. Omitting the platform opens the game chooser. Unreleased platforms return 404. The website validates the exact game/host/path, filename, size and SHA-256 before redirecting, without proxying game archive bytes. GitHub CDN propagation may take several minutes; the resolver retains a working record if refresh is unavailable.
+
+The repository-root eight-game `../latest.json` is a retained legacy format. The current website uses this directory's canonical 21-game record. It was bootstrapped from the live public website, preserving Golden Keep 0.9.14 and other current public downloads rather than replacing them with older launcher previews.
+
+The owner-private command center prepares exact SHA-256-bound proposals. Its dedicated GitHub App is limited to this repository, Contents write and Actions write, and uses short-lived installation tokens. Operator GitHub identity/permission confirmation is required to finish that connection. The existing reviewed CLI and manual GitHub workflow publication work independently.
+
+The workflow renews metadata every 12 hours; timestamp freshness expires after 3 days. Installed games remain playable after catalog expiry; new installs and updates require a current signed catalog. Root keys are retained separately by the operator. The workflow holds online role keys in GitHub Secrets; the Site and desktop never hold root keys. Root renewal and verified backup remain operator tasks.
+
+Archive qualification, actual OS runtime tests, save compatibility, creator/player acceptance and signing/notarization are separate checks. A published metadata record does not imply full game acceptance on every operating system.
