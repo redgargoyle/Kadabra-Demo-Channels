@@ -336,6 +336,96 @@
       "assets": {},
       "repo": "",
       "releasePage": ""
+    },
+    "swarm": {
+      "title": "SWARM",
+      "tag": "Revised campaign / 5069b0e",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/studio-games/swarm/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "iron-litany": {
+      "title": "Iron Litany",
+      "tag": "v0.5.6 · Thunder in the iron",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/play/iron-litany/game/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "wrong-places": {
+      "title": "Wrong Places",
+      "tag": "0.23.0",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/studio-games/wrong-places-0.23.0/?practice&session=website-staging-023",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "echoes-of-elsewhere-tcg": {
+      "title": "Echoes of Elsewhere TCG",
+      "tag": "Playable table edition r2 · October 4, 2026",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/play/echoes-tcg/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "petscop": {
+      "title": "Petscop",
+      "tag": "0.13 / Garalina development edition",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/studio-games/petscop-0.13/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "filmflight": {
+      "title": "WW2 Combat Footage Flight Simulator",
+      "tag": "ca1c088 / photographic corridor",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/studio-games/filmflight-harbor/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "poot-poot": {
+      "title": "Poot-Poot",
+      "tag": "October 10 portable browser edition",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/play/poot-poot/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "pod-racing-foundation": {
+      "title": "Pod-racing foundation",
+      "tag": "0.2.0",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/studio-games/pod-racing-foundation/v0.2.0/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "power-towers": {
+      "title": "Power Towers",
+      "tag": "Manual-power 3D candidate / 3d770fbb",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/studio-games/power-towers/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
+    },
+    "pelagic": {
+      "title": "The Ninth Sea",
+      "tag": "0.5.1 / Boat and Airplane campaigns",
+      "updatedAt": "2026-10-14T22:27:28.711Z",
+      "webDemo": "https://kadabra.games/play/pelagic/",
+      "webDemoLabel": "Play in your browser",
+      "knownPublished": true,
+      "directAssets": {}
     }
   }
 }

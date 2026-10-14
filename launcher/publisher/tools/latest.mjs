@@ -16,7 +16,6 @@ export function buildLatest(catalog,{websiteBaseline,previous=null,publishedAt=n
    if(game.webUrl)stable.webDemo=game.webUrl;
    for(const platform of platforms){const pkg=targets[platform+':x64']||targets[platform+':any'];if(pkg?.kind==='native')stable.directAssets[platform]=pkg;}
   }
-  if(!stable&&game.webUrl)stable={title:game.title,tag:game.version||'Browser edition',updatedAt:publishedAt,webDemo:game.webUrl,webDemoLabel:'Play in your browser',knownPublished:true,directAssets:{}};
   games[game.id]={title:game.title,preview:{version:game.version,hidden:!!game.hidden,targets,webDemo:game.webUrl||null},stable};
  }
  return {schemaVersion:2,revision:catalog.revision,publishedAt,games};
