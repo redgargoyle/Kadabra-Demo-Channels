@@ -31,7 +31,7 @@
     {
       "id": "iron-litany",
       "title": "Iron Litany",
-      "version": "v0.5.6 \u00b7 Thunder in the iron",
+      "version": "v0.5.6 · Thunder in the iron",
       "description": "Work with a cannon crew through three watches. A playable early edition, with art, audio and balance still in review.",
       "platforms": [
         "linux",
@@ -56,7 +56,9 @@
       "status": "Preview packages available",
       "recommendedPackages": {
         "linux:x64": "pixie-garden-1-2-1-linux-x64"
-      }
+      },
+      "hidden": false,
+      "releaseChannel": "preview"
     },
     {
       "id": "chantilly",
@@ -80,7 +82,7 @@
       "id": "wrong-places",
       "title": "Wrong Places",
       "version": "0.23.0",
-      "description": "Eleven ordinary-looking places refuse to follow ordinary rules. A coastal walk, a small theatre, a quiet room and an impossible map each ask you to notice something different\u2014and use what you learn to leave.",
+      "description": "Eleven ordinary-looking places refuse to follow ordinary rules. A coastal walk, a small theatre, a quiet room and an impossible map each ask you to notice something different—and use what you learn to leave.",
       "platforms": [],
       "webUrl": "https://kadabra.games/studio-games/wrong-places-0.23.0/?practice&session=website-staging-023",
       "status": "Offline edition in preparation"
@@ -121,7 +123,7 @@
       "id": "jabberwocky",
       "title": "Golden Keep: Jabberwocky",
       "version": "October 3 authored-world development demo",
-      "description": "Create a human, orc, black dwarf or gargoyle and meet Golden Keep at a traveler\u2019s height. Explore settlements, accept quests and choose your encounters. Gargoyles can take to the wind; on the ground, wounds and limited treatment give a fight consequences.",
+      "description": "Create a human, orc, black dwarf or gargoyle and meet Golden Keep at a traveler’s height. Explore settlements, accept quests and choose your encounters. Gargoyles can take to the wind; on the ground, wounds and limited treatment give a fight consequences.",
       "platforms": [
         "linux",
         "windows"
@@ -201,7 +203,7 @@
     {
       "id": "echoes-of-elsewhere-tcg",
       "title": "Echoes of Elsewhere TCG",
-      "version": "Playable table edition r2 \u00b7 October 4, 2026",
+      "version": "Playable table edition r2 · October 4, 2026",
       "description": "Build a creature deck, awaken its abilities and follow twelve keepers through a world waiting to be remembered. Play offline, with your collection saved on this computer.",
       "platforms": [
         "windows",
@@ -219,7 +221,7 @@
     {
       "id": "war-table",
       "title": "War Table",
-      "version": "Local browser demo \u00b7 7900f5f",
+      "version": "Local browser demo · 7900f5f",
       "description": "Gather around a world map, assign commanders and carry a campaign from purchases to movement, battle and income. Then open the workshop and make a smaller game of your own.",
       "platforms": [
         "linux"
