@@ -1,6 +1,11 @@
 name: Renew Kadabra launcher preview catalog
 on:
   workflow_dispatch:
+    inputs:
+      source_commit:
+        description: Exact reviewed source commit (blank renews current main)
+        required: false
+        type: string
   schedule:
     - cron: '17 */12 * * *'
 permissions:
@@ -16,6 +21,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: true
+          ref: ${{ inputs.source_commit || github.ref }}
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
           node-version: '26'

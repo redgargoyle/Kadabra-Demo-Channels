@@ -38,9 +38,12 @@ export function validateCatalog(c) {
   const games = new Set(); const packages = new Set();
   for (const g of c.games) { validId(g.id); assert(!games.has(g.id), 'Duplicate game'); games.add(g.id); assert(typeof g.title === 'string' && g.title.length < 180, 'Invalid title'); }
   for (const p of c.packages) { validatePackage(p); assert(games.has(p.gameId) && !packages.has(p.id), 'Invalid package reference'); packages.add(p.id); }
+  for(const game of c.games)for(const [target,id] of Object.entries(game.recommendedPackages||{})){const pkg=c.packages.find(p=>p.id===id);assert(pkg&&pkg.gameId===game.id&&target===pkg.platform+':'+pkg.arch,'Invalid recommended package');}
   return c;
 }
 export function targetPlatform() { return process.platform === 'win32' ? 'windows' : process.platform === 'darwin' ? 'macos' : 'linux'; }
 export function packageForGame(catalog, gameId, platform = targetPlatform(), arch = process.arch) {
+  const game=catalog.games.find(g=>g.id===gameId);const recommended=game?.recommendedPackages?.[platform+':'+arch]||game?.recommendedPackages?.[platform+':any'];
+  if(recommended)return catalog.packages.find(p=>p.id===recommended&&p.gameId===gameId&&p.platform===platform&&(p.arch===arch||p.arch==='any'));
   return catalog.packages.filter(p => p.gameId === gameId && p.platform === platform && (p.arch === arch || p.arch === 'any')).sort((a,b) => (b.sequence || 0) - (a.sequence || 0))[0];
 }

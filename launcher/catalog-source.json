@@ -27,7 +27,7 @@
     {
       "id": "iron-litany",
       "title": "Iron Litany",
-      "version": "v0.5.6 · Thunder in the iron",
+      "version": "v0.5.6 \u00b7 Thunder in the iron",
       "description": "Playable early edition. A heavier, immediate cannon with a complete steel-and-bass decay; seven new original sound clips; 384 fighting infantry and 480 fallen bodies behind narrow slit views; clearer wax counts and one adult loader/contact refinement. Both matching desktop editions passed actual aiming, interrupted paid work and three watches through calibrated ordinary expert input. Human play, listening and Diablo I art remain in review.",
       "platforms": [
         "linux",
@@ -45,7 +45,10 @@
         "linux"
       ],
       "webUrl": null,
-      "status": "Package qualification in progress"
+      "status": "Package qualification in progress",
+      "recommendedPackages": {
+        "linux:x64": "pixie-garden-1-2-1-linux-x64"
+      }
     },
     {
       "id": "chantilly",
@@ -159,7 +162,7 @@
     {
       "id": "echoes-of-elsewhere-tcg",
       "title": "Echoes of Elsewhere TCG",
-      "version": "Playable table edition r2 · October 4, 2026",
+      "version": "Playable table edition r2 \u00b7 October 4, 2026",
       "description": "Portable local edition for Windows, macOS and Linux. Python 3 and a browser are required; extract the complete folder before playing. The card game also plays directly in your browser.",
       "platforms": [
         "windows",
@@ -172,7 +175,7 @@
     {
       "id": "war-table",
       "title": "War Table",
-      "version": "Local browser demo · 7900f5f",
+      "version": "Local browser demo \u00b7 7900f5f",
       "description": "Linux x86-64 local browser development demo. Requires Python 3.10+ and a modern browser; Java 25 and the pinned TripleA runtime are included. Extract the complete ZIP, run sh Start-War-Table.sh, then open http://127.0.0.1:8795/play. If needed, run sh Start-War-Table.sh --port 8796 and open http://127.0.0.1:8796/play. Personal saves are excluded.",
       "platforms": [
         "linux"
@@ -209,7 +212,12 @@
         "linux"
       ],
       "webUrl": "https://kadabra.games/play/poot-poot/",
-      "status": "Package qualification in progress"
+      "status": "Package qualification in progress",
+      "recommendedPackages": {
+        "linux:any": "poot-poot-browser-2026-10-10",
+        "windows:any": "poot-poot-browser-2026-10-10-windows",
+        "macos:any": "poot-poot-browser-2026-10-10-macos"
+      }
     },
     {
       "id": "pod-racing-foundation",
