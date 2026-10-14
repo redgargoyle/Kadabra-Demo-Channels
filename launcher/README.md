@@ -20,7 +20,7 @@ Replace `linux` with `windows`, `macos`, or `web`. Omitting the platform opens t
 
 The repository-root eight-game `../latest.json` is a retained legacy format. The current website uses this directory's canonical 21-game record. It was bootstrapped from the live public website, preserving Golden Keep 0.9.14 and other current public downloads rather than replacing them with older launcher previews.
 
-The owner-private command center prepares exact SHA-256-bound proposals. Its dedicated GitHub App is limited to this repository, Contents write and Actions write, and uses short-lived installation tokens. Operator GitHub identity/permission confirmation is required to finish that connection. The existing reviewed CLI and manual GitHub workflow publication work independently.
+The owner-private command center prepares exact SHA-256-bound proposals. Its dedicated GitHub App is limited to this repository, Contents write and Actions write, and uses short-lived installation tokens. The connection is installed and verified for this repository only. Its real Publish button completed the Pixie Garden 1.2.1 preview round trip through GitHub App commit `1bb5302`, successful signing workflow run `38650778179`, and official TUF verification of catalog revision 8. The existing reviewed CLI and manual GitHub workflow publication also work independently.
 
 The workflow renews metadata every 12 hours; timestamp freshness expires after 3 days. Installed games remain playable after catalog expiry; new installs and updates require a current signed catalog. Root keys are retained separately by the operator. The workflow holds online role keys in GitHub Secrets; the Site and desktop never hold root keys. Root renewal and verified backup remain operator tasks.
 
