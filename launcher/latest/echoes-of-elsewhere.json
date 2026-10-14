@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "echoes-of-elsewhere",
+  "title": "Echoes of Elsewhere",
+  "preview": {
+    "version": "1.1.0",
+    "hidden": false,
+    "targets": {},
+    "webDemo": null
+  },
+  "stable": {
+    "title": "Echoes of Elsewhere",
+    "tag": "1.1.0",
+    "updatedAt": "2026-10-13",
+    "runtime": "portable-python",
+    "knownPublished": true,
+    "freshLabel": "CURRENT DEMO",
+    "statusNote": "Current Living Wilds 1.1.0 local browser demo. Python 3.10+ and a modern browser are required. Extract the complete ZIP and run launch.py. The actual state/action/save server is included; no account or external service is required.",
+    "buildNotes": [],
+    "directAssets": {
+      "windows": {
+        "name": "Echoes-of-Elsewhere-1.1.0-Portable.zip",
+        "url": "https://kadabra.games/downloads/development/d0ed97dd978b/Echoes-of-Elsewhere-1.1.0-Portable.zip",
+        "sizeBytes": 383078644,
+        "sha256": "d0ed97dd978beb8b4dd6bd220512125c3c60c3d3b97dcffdea9e6af551b8d967",
+        "version": "1.1.0"
+      },
+      "linux": {
+        "name": "Echoes-of-Elsewhere-1.1.0-Portable.zip",
+        "url": "https://kadabra.games/downloads/development/d0ed97dd978b/Echoes-of-Elsewhere-1.1.0-Portable.zip",
+        "sizeBytes": 383078644,
+        "sha256": "d0ed97dd978beb8b4dd6bd220512125c3c60c3d3b97dcffdea9e6af551b8d967",
+        "version": "1.1.0"
+      },
+      "macos": {
+        "name": "Echoes-of-Elsewhere-1.1.0-Portable.zip",
+        "url": "https://kadabra.games/downloads/development/d0ed97dd978b/Echoes-of-Elsewhere-1.1.0-Portable.zip",
+        "sizeBytes": 383078644,
+        "sha256": "d0ed97dd978beb8b4dd6bd220512125c3c60c3d3b97dcffdea9e6af551b8d967",
+        "version": "1.1.0"
+      }
+    },
+    "websiteHosted": true,
+    "sourceCommit": "b2cb59fbc8d1b7110a9d3eabd6b6fa1d3c4c39aa",
+    "assets": {},
+    "repo": "",
+    "releasePage": ""
+  }
+}

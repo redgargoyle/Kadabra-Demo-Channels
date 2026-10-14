@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "dark-between-stations",
+  "title": "The Dark Between Stations",
+  "preview": {
+    "version": "September 30 audio update",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "TheDarkBetweenStations-Linux-20260930-33f3acb.tar.gz",
+        "url": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/download/v2026.09.30-audio/TheDarkBetweenStations-Linux-20260930-33f3acb.tar.gz",
+        "sizeBytes": 117845634,
+        "sha256": "d5399c64c666aa7d0018adbedd0529cb18d92d6f3e1f8824d06b8e699eb6ba4d",
+        "version": "September 30 audio update",
+        "packageId": "dark-between-stations-d5399c64c666-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "TheDarkBetweenStations-Windows-20260930-d88af94.zip",
+        "url": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/download/v2026.09.30-audio/TheDarkBetweenStations-Windows-20260930-d88af94.zip",
+        "sizeBytes": 121028667,
+        "sha256": "f289db7a07ef0738308d8f961f30ebbe0bc824a3fe013dff0ffea674901f8e6e",
+        "version": "September 30 audio update",
+        "packageId": "dark-between-stations-f289db7a07ef-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "title": "The Dark Between Stations",
+    "tag": "September 30 audio update",
+    "updatedAt": "2026-09-30",
+    "freshLabel": "DEMO",
+    "statusNote": "Windows and Linux demo with improved ambience and sound playback. Early horror prototype; the full campaign remains in development.",
+    "directAssets": {
+      "windows": {
+        "name": "TheDarkBetweenStations-Windows-20260930-d88af94.zip",
+        "url": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/download/v2026.09.30-audio/TheDarkBetweenStations-Windows-20260930-d88af94.zip",
+        "sizeBytes": 121028667,
+        "sha256": "f289db7a07ef0738308d8f961f30ebbe0bc824a3fe013dff0ffea674901f8e6e",
+        "version": "September 30 audio update"
+      },
+      "linux": {
+        "name": "TheDarkBetweenStations-Linux-20260930-33f3acb.tar.gz",
+        "url": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/download/v2026.09.30-audio/TheDarkBetweenStations-Linux-20260930-33f3acb.tar.gz",
+        "sizeBytes": 117845634,
+        "sha256": "d5399c64c666aa7d0018adbedd0529cb18d92d6f3e1f8824d06b8e699eb6ba4d",
+        "version": "September 30 audio update"
+      }
+    },
+    "repo": "redgargoyle/The-Dark-Between-Stations-Releases",
+    "knownPublished": true,
+    "assets": {},
+    "releasePage": "https://github.com/redgargoyle/The-Dark-Between-Stations-Releases/releases/tag/v2026.09.30-audio"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "pelagic",
+  "title": "The Ninth Sea",
+  "preview": {
+    "version": "0.5.1 / Boat and Airplane campaigns",
+    "hidden": false,
+    "targets": {},
+    "webDemo": "https://kadabra.games/play/pelagic/"
+  },
+  "stable": {
+    "title": "The Ninth Sea",
+    "tag": "0.5.1 / Boat and Airplane campaigns",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/play/pelagic/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

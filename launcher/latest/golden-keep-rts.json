@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "golden-keep-rts",
+  "title": "The Golden Keep: Forces of Darkness",
+  "preview": {
+    "version": "0.9.13-overmind.1",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "Goldenkeep-0.9.13-overmind.1-Linux-Development.tar.gz",
+        "url": "https://kadabra.games/downloads/development/ad341927123f/Goldenkeep-0.9.13-overmind.1-Linux-Development.tar.gz",
+        "sizeBytes": 622934453,
+        "sha256": "ad341927123f79480ce6884cf4916bbd59753f4473be425fff4e1f54fd678d19",
+        "version": "0.9.13-overmind.1",
+        "packageId": "golden-keep-rts-ad341927123f-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "Goldenkeep-0.9.13-overmind.1-Windows-Development.tar.gz",
+        "url": "https://kadabra.games/downloads/development/c6897b63ff95/Goldenkeep-0.9.13-overmind.1-Windows-Development.tar.gz",
+        "sizeBytes": 625778222,
+        "sha256": "c6897b63ff95d2428eca69c11219f57cd98783dd9fe5940829b3e7de6aa7ccd3",
+        "version": "0.9.13-overmind.1",
+        "packageId": "golden-keep-rts-c6897b63ff95-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "title": "The Golden Keep: Forces of Darkness",
+    "tag": "0.9.14-multiplayer.1",
+    "updatedAt": "2026-10-14",
+    "runtime": "bundled-desktop",
+    "knownPublished": true,
+    "freshLabel": "CURRENT DEMO",
+    "statusNote": "Development demo 0.9.14-multiplayer.1 includes the latest ritual, visual, racial development and Overmind work, plus Host/Guest multiplayer launchers. Extract the whole archive and open Start Multiplayer inside Multiplayer-Host or Multiplayer-Guest. Both commanders need this same version. Physical match and final 1.0 acceptance remain open.",
+    "buildNotes": [
+      "Both commanders need this exact version.",
+      "Host a match, copy the reachable room invitation, then have the guest paste it and join."
+    ],
+    "directAssets": {
+      "linux": {
+        "name": "Goldenkeep-0.9.14-multiplayer.1-Linux.tar.gz",
+        "url": "https://kadabra.games/downloads/development/59a05e2e6954/Goldenkeep-0.9.14-multiplayer.1-Linux.tar.gz",
+        "sizeBytes": 609642464,
+        "sha256": "59a05e2e695495fb37e00bc1e262eafe7cc20f4ccf1ae3decdcc5027636d11b0",
+        "version": "0.9.14-multiplayer.1"
+      },
+      "windows": {
+        "name": "Goldenkeep-0.9.14-multiplayer.1-Windows.zip",
+        "url": "https://kadabra.games/downloads/development/1a8505b3f362/Goldenkeep-0.9.14-multiplayer.1-Windows.zip",
+        "sizeBytes": 612659590,
+        "sha256": "1a8505b3f36246683829f140c9172158ac3f4575db8cd8955963097ef086b59a",
+        "version": "0.9.14-multiplayer.1"
+      }
+    },
+    "websiteHosted": true,
+    "sourceCommit": "5297ad437ed1a8abe89408568b1eb27270bf6e74",
+    "inputSha256": "999bacc901a8bb16cc9972e5861819536fafb5d5351a7b4eac396c5920be53a4",
+    "assets": {},
+    "repo": "",
+    "releasePage": ""
+  }
+}

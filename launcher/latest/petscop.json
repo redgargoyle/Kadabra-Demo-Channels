@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "petscop",
+  "title": "Petscop",
+  "preview": {
+    "version": "0.13 / Garalina development edition",
+    "hidden": false,
+    "targets": {},
+    "webDemo": "https://kadabra.games/studio-games/petscop-0.13/"
+  },
+  "stable": {
+    "title": "Petscop",
+    "tag": "0.13 / Garalina development edition",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/studio-games/petscop-0.13/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

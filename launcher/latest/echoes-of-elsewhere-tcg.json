@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "echoes-of-elsewhere-tcg",
+  "title": "Echoes of Elsewhere TCG",
+  "preview": {
+    "version": "Playable table edition r2 · October 4, 2026",
+    "hidden": false,
+    "targets": {
+      "linux:any": {
+        "name": "Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-04-r2.zip",
+        "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-04-r2/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-04-r2.zip",
+        "sizeBytes": 179717783,
+        "sha256": "ebda3f4d9127d6227ed48f54dd0d2b9aabbf75620e5a5c8a16a3fef107aebe5c",
+        "version": "Playable table edition r2",
+        "packageId": "echoes-tcg-table-r2-20261004-linux",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "any"
+      },
+      "windows:any": {
+        "name": "Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-04-r2.zip",
+        "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-04-r2/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-04-r2.zip",
+        "sizeBytes": 179717783,
+        "sha256": "ebda3f4d9127d6227ed48f54dd0d2b9aabbf75620e5a5c8a16a3fef107aebe5c",
+        "version": "Playable table edition r2",
+        "packageId": "echoes-tcg-table-r2-20261004-windows",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "any"
+      },
+      "macos:any": {
+        "name": "Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-04-r2.zip",
+        "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-04-r2/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-04-r2.zip",
+        "sizeBytes": 179717783,
+        "sha256": "ebda3f4d9127d6227ed48f54dd0d2b9aabbf75620e5a5c8a16a3fef107aebe5c",
+        "version": "Playable table edition r2",
+        "packageId": "echoes-tcg-table-r2-20261004-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
+    "webDemo": "https://kadabra.games/play/echoes-tcg/"
+  },
+  "stable": {
+    "title": "Echoes of Elsewhere TCG",
+    "tag": "Playable table edition r2 · October 4, 2026",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/play/echoes-tcg/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

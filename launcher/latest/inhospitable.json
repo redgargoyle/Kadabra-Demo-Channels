@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "inhospitable",
+  "title": "Inhospitable",
+  "preview": {
+    "version": "v0.1.0-polish.9159c1e",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "Inhospitable-Expedition-9159c1e-Linux.tar.gz",
+        "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0-polish.9159c1e/Inhospitable-Expedition-9159c1e-Linux.tar.gz",
+        "sizeBytes": 208887240,
+        "sha256": "ae458e702f5f8e11ea51176e37abd26854550fb99213115606501c237a5aef84",
+        "version": "v0.1.0-polish.9159c1e",
+        "packageId": "inhospitable-ae458e702f5f-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "Inhospitable-Expedition-9159c1e-Windows.zip",
+        "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0-polish.9159c1e/Inhospitable-Expedition-9159c1e-Windows.zip",
+        "sizeBytes": 210001861,
+        "sha256": "5baeb48004bc22613fb3f3901cb3d43eaa64cda69e8fc9c5ff8f8d39c1b7c09c",
+        "version": "v0.1.0-polish.9159c1e",
+        "packageId": "inhospitable-5baeb48004bc-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      },
+      "macos:any": {
+        "name": "inhospitable-demo-macos-universal.zip",
+        "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0/inhospitable-demo-macos-universal.zip",
+        "sizeBytes": 163998878,
+        "sha256": "c65acac9f1ef7373b89d2587257c13df5d6f203b5e1cc92295c7fa8cdd6f9f19",
+        "version": "v0.1.0",
+        "packageId": "inhospitable-c65acac9f1ef-macos-x64",
+        "kind": "native",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "tag": "v0.1.0-polish.9159c1e",
+    "updatedAt": "2026-10-01",
+    "statusNote": "October 1 Windows and Linux development demo. The macOS download remains the earlier v0.1.0 release. See build notes for the exact version.",
+    "directAssets": {
+      "linux": {
+        "name": "Inhospitable-Expedition-9159c1e-Linux.tar.gz",
+        "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0-polish.9159c1e/Inhospitable-Expedition-9159c1e-Linux.tar.gz",
+        "sizeBytes": 208887240,
+        "sha256": "ae458e702f5f8e11ea51176e37abd26854550fb99213115606501c237a5aef84",
+        "version": "v0.1.0-polish.9159c1e"
+      },
+      "windows": {
+        "name": "Inhospitable-Expedition-9159c1e-Windows.zip",
+        "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0-polish.9159c1e/Inhospitable-Expedition-9159c1e-Windows.zip",
+        "sizeBytes": 210001861,
+        "sha256": "5baeb48004bc22613fb3f3901cb3d43eaa64cda69e8fc9c5ff8f8d39c1b7c09c",
+        "version": "v0.1.0-polish.9159c1e"
+      },
+      "macos": {
+        "name": "inhospitable-demo-macos-universal.zip",
+        "url": "https://github.com/redgargoyle/Inhospitable-Releases/releases/download/v0.1.0/inhospitable-demo-macos-universal.zip",
+        "sizeBytes": 163998878,
+        "sha256": "c65acac9f1ef7373b89d2587257c13df5d6f203b5e1cc92295c7fa8cdd6f9f19",
+        "version": "v0.1.0"
+      }
+    },
+    "packagingReviewedAt": "2026-09-30",
+    "repo": "redgargoyle/Inhospitable-Releases",
+    "knownPublished": true,
+    "assets": {},
+    "releasePage": "https://github.com/redgargoyle/Inhospitable-Releases/releases/tag/v0.1.0-polish.9159c1e"
+  }
+}

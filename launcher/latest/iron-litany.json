@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "iron-litany",
+  "title": "Iron Litany",
+  "preview": {
+    "version": "v0.5.6 · Thunder in the iron",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "IronLitany-linux-x64.zip",
+        "url": "https://github.com/redgargoyle/Iron-Litany-Releases/releases/download/v0.5.6/IronLitany-linux-x64.zip",
+        "sizeBytes": 167498172,
+        "sha256": "b553edbe948905a38ddba2813e1cc76b0b475d411e1b622478b0281550ef6734",
+        "version": "v0.5.6",
+        "packageId": "iron-litany-b553edbe9489-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "IronLitany-windows-x64.zip",
+        "url": "https://github.com/redgargoyle/Iron-Litany-Releases/releases/download/v0.5.6/IronLitany-windows-x64.zip",
+        "sizeBytes": 202565784,
+        "sha256": "1b67c16632f6491e9a96414a5bffdc9ebdaf2059d7720510768d3912728b7a9a",
+        "version": "v0.5.6",
+        "packageId": "iron-litany-1b67c16632f6-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      }
+    },
+    "webDemo": "https://kadabra.games/play/iron-litany/game/"
+  },
+  "stable": {
+    "title": "Iron Litany",
+    "tag": "v0.5.6 · Thunder in the iron",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/play/iron-litany/game/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

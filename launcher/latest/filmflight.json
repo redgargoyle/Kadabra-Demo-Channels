@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "filmflight",
+  "title": "WW2 Combat Footage Flight Simulator",
+  "preview": {
+    "version": "ca1c088 / photographic corridor",
+    "hidden": false,
+    "targets": {},
+    "webDemo": "https://kadabra.games/studio-games/filmflight-harbor/"
+  },
+  "stable": {
+    "title": "WW2 Combat Footage Flight Simulator",
+    "tag": "ca1c088 / photographic corridor",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/studio-games/filmflight-harbor/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

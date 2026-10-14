@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "jabberwocky",
+  "title": "Golden Keep: Jabberwocky",
+  "preview": {
+    "version": "October 3 authored-world development demo",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "Jabberwocky-2026-10-03-3a0193d5-Linux.zip",
+        "url": "https://kadabra.games/downloads/Jabberwocky-2026-10-03-3a0193d5-Linux.zip",
+        "sizeBytes": 2181344648,
+        "sha256": "24f717dbc9df048e90fb2a17ee89e0624e0206ffa749241312d397fb0c91df8d",
+        "version": "October 3 authored-world development demo",
+        "packageId": "jabberwocky-24f717dbc9df-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "Jabberwocky-2026-10-03-3a0193d5-Windows.zip",
+        "url": "https://kadabra.games/downloads/Jabberwocky-2026-10-03-3a0193d5-Windows.zip",
+        "sizeBytes": 2168399133,
+        "sha256": "2fda3444a84d1848cbe8240a8caded77a6adf524d4956c3e6e92443fbd250a19",
+        "version": "October 3 authored-world development demo",
+        "packageId": "jabberwocky-2fda3444a84d-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "title": "Jabberwocky",
+    "tag": "October 3 authored-world development demo",
+    "updatedAt": "2026-10-03",
+    "freshLabel": "DEMO",
+    "statusNote": "October 3 development demo: the authored world, regional injuries, finite treatment, wind flight, Skyfall and swimming. Prototype animation and performance need further testing. Windows play still needs testing on a Windows PC.",
+    "directAssets": {
+      "linux": {
+        "name": "Jabberwocky-2026-10-03-3a0193d5-Linux.zip",
+        "url": "https://kadabra-video-library-review.amcorblue.chatgpt.site/downloads/Jabberwocky-2026-10-03-3a0193d5-Linux.zip",
+        "sizeBytes": 2181344648,
+        "sha256": "24f717dbc9df048e90fb2a17ee89e0624e0206ffa749241312d397fb0c91df8d",
+        "version": "October 3 authored-world development demo"
+      },
+      "windows": {
+        "name": "Jabberwocky-2026-10-03-3a0193d5-Windows.zip",
+        "url": "https://kadabra-video-library-review.amcorblue.chatgpt.site/downloads/Jabberwocky-2026-10-03-3a0193d5-Windows.zip",
+        "sizeBytes": 2168399133,
+        "sha256": "2fda3444a84d1848cbe8240a8caded77a6adf524d4956c3e6e92443fbd250a19",
+        "version": "October 3 authored-world development demo"
+      }
+    },
+    "repo": "",
+    "knownPublished": true,
+    "packagingReviewedAt": "2026-09-30",
+    "assets": {},
+    "releasePage": ""
+  }
+}

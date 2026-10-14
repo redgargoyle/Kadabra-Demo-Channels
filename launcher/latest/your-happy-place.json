@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "your-happy-place",
+  "title": "Your Happy Place",
+  "preview": {
+    "version": "v0.1.0",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "YourHappyPlace-Linux.tar.gz",
+        "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Linux.tar.gz",
+        "sizeBytes": 855445317,
+        "sha256": "de3b97b34cd1adc05244940f4d961971dc3591dd88970befa40906298bf08357",
+        "version": "v0.1.0",
+        "packageId": "your-happy-place-de3b97b34cd1-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "YourHappyPlace-Windows.zip",
+        "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Windows.zip",
+        "sizeBytes": 852985739,
+        "sha256": "3ee889cfc8eda89348231c87cf06fb19563ab6deb9aa1087e9570d071b5cab93",
+        "version": "v0.1.0",
+        "packageId": "your-happy-place-3ee889cfc8ed-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      },
+      "macos:any": {
+        "name": "YourHappyPlace-macOS.zip",
+        "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-macOS.zip",
+        "sizeBytes": 825080744,
+        "sha256": "7dad90e9df4d929215f4e94fe63131c0a517ebbdf2db45e34159e1ce97aeeb4c",
+        "version": "v0.1.0",
+        "packageId": "your-happy-place-7dad90e9df4d-macos-x64",
+        "kind": "native",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "tag": "v0.1.0",
+    "updatedAt": "2026-10-03",
+    "statusNote": "Public Windows and Linux demo updated October 3. macOS remains the earlier v0.1.0 release. Extract the complete archive before launching.",
+    "directAssets": {
+      "linux": {
+        "name": "YourHappyPlace-Linux.tar.gz",
+        "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Linux.tar.gz",
+        "sizeBytes": 855445317,
+        "sha256": "de3b97b34cd1adc05244940f4d961971dc3591dd88970befa40906298bf08357",
+        "version": "v0.1.0"
+      },
+      "windows": {
+        "name": "YourHappyPlace-Windows.zip",
+        "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Windows.zip",
+        "sizeBytes": 852985739,
+        "sha256": "3ee889cfc8eda89348231c87cf06fb19563ab6deb9aa1087e9570d071b5cab93",
+        "version": "v0.1.0"
+      },
+      "macos": {
+        "name": "YourHappyPlace-macOS.zip",
+        "url": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-macOS.zip",
+        "sizeBytes": 825080744,
+        "sha256": "7dad90e9df4d929215f4e94fe63131c0a517ebbdf2db45e34159e1ce97aeeb4c",
+        "version": "v0.1.0"
+      }
+    },
+    "packagingReviewedAt": "2026-09-30",
+    "repo": "redgargoyle/YourHappyPlace-Releases",
+    "knownPublished": true,
+    "assets": {},
+    "releasePage": "https://github.com/redgargoyle/YourHappyPlace-Releases/releases/tag/v0.1.0"
+  }
+}

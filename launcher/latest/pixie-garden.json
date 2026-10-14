@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "pixie-garden",
+  "title": "Pixie Garden",
+  "preview": {
+    "version": "1.2.1",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "PixieGarden-1.2.1-Linux-Development.tar.gz",
+        "url": "https://kadabra.games/downloads/development/a02efb11a618/PixieGarden-1.2.1-Linux-Development.tar.gz",
+        "sizeBytes": 68493838,
+        "sha256": "a02efb11a618d1f6dc8243afbd300818dbad17376628e188aab115ef9551abb5",
+        "version": "1.2.1",
+        "packageId": "pixie-garden-1-2-1-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "title": "Pixie Garden",
+    "tag": "1.2.1",
+    "updatedAt": "2026-10-13",
+    "runtime": "bundled-desktop",
+    "knownPublished": true,
+    "freshLabel": "CURRENT DEMO",
+    "statusNote": "Linux 1.2.1 development demo. Extract the complete folder and run PixieGarden.x86_64. Windows and controller coverage remain in development.",
+    "buildNotes": [],
+    "directAssets": {
+      "linux": {
+        "name": "PixieGarden-1.2.1-Linux-Development.tar.gz",
+        "url": "https://kadabra.games/downloads/development/a02efb11a618/PixieGarden-1.2.1-Linux-Development.tar.gz",
+        "sizeBytes": 68493838,
+        "sha256": "a02efb11a618d1f6dc8243afbd300818dbad17376628e188aab115ef9551abb5",
+        "version": "1.2.1"
+      }
+    },
+    "websiteHosted": true,
+    "sourceCommit": "ede69d7619b4286d11b37843d1342745bcd7438f",
+    "assets": {},
+    "repo": "",
+    "releasePage": ""
+  }
+}

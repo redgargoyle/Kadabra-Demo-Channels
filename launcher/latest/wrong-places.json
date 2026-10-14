@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "wrong-places",
+  "title": "Wrong Places",
+  "preview": {
+    "version": "0.23.0",
+    "hidden": false,
+    "targets": {},
+    "webDemo": "https://kadabra.games/studio-games/wrong-places-0.23.0/?practice&session=website-staging-023"
+  },
+  "stable": {
+    "title": "Wrong Places",
+    "tag": "0.23.0",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/studio-games/wrong-places-0.23.0/?practice&session=website-staging-023",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

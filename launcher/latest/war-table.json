@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "war-table",
+  "title": "War Table",
+  "preview": {
+    "version": "Local browser demo · 7900f5f",
+    "hidden": false,
+    "targets": {},
+    "webDemo": null
+  },
+  "stable": {
+    "title": "War Table",
+    "tag": "Local browser demo · 7900f5f",
+    "updatedAt": "2026-10-14",
+    "runtime": "portable-python-java",
+    "knownPublished": true,
+    "freshLabel": "CURRENT DEMO",
+    "statusNote": "Linux x86-64 local browser development demo. Requires Python 3.10+ and a modern browser; Java 25 and the pinned TripleA runtime are included. Extract the complete ZIP, run sh Start-War-Table.sh, then open http://127.0.0.1:8795/play. If needed, run sh Start-War-Table.sh --port 8796 and open http://127.0.0.1:8796/play. Personal saves are excluded.",
+    "buildNotes": [
+      "Qualified finite development demo: ten scenarios. Existing ordinary-input opening checks cover Atheria start, recruitment, move, undo and Resume. This archive received integrity and launcher checks; a new extracted-package gameplay run and full-war, audio/art and mobile acceptance are not claimed."
+    ],
+    "directAssets": {
+      "linux": {
+        "name": "War-Table-7900f5f-Linux-Portable.zip",
+        "url": "https://kadabra.games/downloads/development/4bf650e88c98/War-Table-7900f5f-Linux-Portable.zip",
+        "sizeBytes": 129324279,
+        "sha256": "4bf650e88c98ee4a62d593cb70682c3c86a9874260586b139301294c3edef235",
+        "version": "Local browser demo · 7900f5f"
+      }
+    },
+    "websiteHosted": true,
+    "sourceCommit": "7900f5f36db63674f02b6fbd5be6b87943f0b2e9",
+    "assets": {},
+    "repo": "",
+    "releasePage": ""
+  }
+}

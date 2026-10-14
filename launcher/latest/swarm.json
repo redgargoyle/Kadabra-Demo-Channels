@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "swarm",
+  "title": "SWARM",
+  "preview": {
+    "version": "Revised campaign / 5069b0e",
+    "hidden": false,
+    "targets": {},
+    "webDemo": "https://kadabra.games/studio-games/swarm/"
+  },
+  "stable": {
+    "title": "SWARM",
+    "tag": "Revised campaign / 5069b0e",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/studio-games/swarm/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}

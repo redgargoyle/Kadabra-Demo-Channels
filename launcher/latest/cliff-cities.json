@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "cliff-cities",
+  "title": "Golden Keep: Golden Cliffs",
+  "preview": {
+    "version": "v2026.09.30-walking",
+    "hidden": false,
+    "targets": {
+      "linux:x64": {
+        "name": "TheCliffCities-Linux-20260930-622e8e9.tar.gz",
+        "url": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/download/v2026.09.30-walking/TheCliffCities-Linux-20260930-622e8e9.tar.gz",
+        "sizeBytes": 109081580,
+        "sha256": "82b7164c3178bc1bb888ef399ce1a23e39ce8e1577c8f22914e13865dd1fa798",
+        "version": "v2026.09.30-walking",
+        "packageId": "cliff-cities-82b7164c3178-linux-x64",
+        "kind": "native",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "TheCliffCities-Windows-20260930-622e8e9.zip",
+        "url": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/download/v2026.09.30-walking/TheCliffCities-Windows-20260930-622e8e9.zip",
+        "sizeBytes": 106638982,
+        "sha256": "39286f8bc34559d484b6832d99e417adee1e27c937b950ac4896066333fd2f42",
+        "version": "v2026.09.30-walking",
+        "packageId": "cliff-cities-39286f8bc345-windows-x64",
+        "kind": "native",
+        "platform": "windows",
+        "arch": "x64"
+      }
+    },
+    "webDemo": null
+  },
+  "stable": {
+    "title": "The Golden Cliffs",
+    "tag": "v2026.09.30-walking",
+    "updatedAt": "2026-09-30",
+    "freshLabel": "DEMO",
+    "statusNote": "Windows and Linux climbing lesson and exploration slice with the September 30 walking update. Start with Find Your Feet. The complete route and Windows playthrough still need testing.",
+    "directAssets": {
+      "windows": {
+        "name": "TheCliffCities-Windows-20260930-622e8e9.zip",
+        "url": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/download/v2026.09.30-walking/TheCliffCities-Windows-20260930-622e8e9.zip",
+        "sizeBytes": 106638982,
+        "sha256": "39286f8bc34559d484b6832d99e417adee1e27c937b950ac4896066333fd2f42",
+        "version": "v2026.09.30-walking"
+      },
+      "linux": {
+        "name": "TheCliffCities-Linux-20260930-622e8e9.tar.gz",
+        "url": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/download/v2026.09.30-walking/TheCliffCities-Linux-20260930-622e8e9.tar.gz",
+        "sizeBytes": 109081580,
+        "sha256": "82b7164c3178bc1bb888ef399ce1a23e39ce8e1577c8f22914e13865dd1fa798",
+        "version": "v2026.09.30-walking"
+      }
+    },
+    "repo": "redgargoyle/The-Cliff-Cities-Releases",
+    "knownPublished": true,
+    "assets": {},
+    "releasePage": "https://github.com/redgargoyle/The-Cliff-Cities-Releases/releases/tag/v2026.09.30-walking"
+  }
+}

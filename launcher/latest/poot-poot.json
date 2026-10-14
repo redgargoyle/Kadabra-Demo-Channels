@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "revision": 6,
+  "publishedAt": "2026-10-14T22:27:28.711Z",
+  "gameId": "poot-poot",
+  "title": "Poot-Poot",
+  "preview": {
+    "version": "October 10 portable browser edition",
+    "hidden": false,
+    "targets": {
+      "linux:any": {
+        "name": "Poot-Poot-Browser-Edition-2026-10-10.zip",
+        "url": "https://github.com/redgargoyle/Poot-Poot-Releases/releases/download/browser-2026-10-10/Poot-Poot-Browser-Edition-2026-10-10.zip",
+        "sizeBytes": 36364613,
+        "sha256": "e66be8411271cddffcfd5f08bf8c3ffe5082fce1133cd5a1a16e74bebfde88ba",
+        "version": "2026.10.10",
+        "packageId": "poot-poot-browser-2026-10-10",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "any"
+      },
+      "windows:any": {
+        "name": "Poot-Poot-Browser-Edition-2026-10-10.zip",
+        "url": "https://github.com/redgargoyle/Poot-Poot-Releases/releases/download/browser-2026-10-10/Poot-Poot-Browser-Edition-2026-10-10.zip",
+        "sizeBytes": 36364613,
+        "sha256": "e66be8411271cddffcfd5f08bf8c3ffe5082fce1133cd5a1a16e74bebfde88ba",
+        "version": "2026.10.10",
+        "packageId": "poot-poot-browser-2026-10-10-windows",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "any"
+      },
+      "macos:any": {
+        "name": "Poot-Poot-Browser-Edition-2026-10-10.zip",
+        "url": "https://github.com/redgargoyle/Poot-Poot-Releases/releases/download/browser-2026-10-10/Poot-Poot-Browser-Edition-2026-10-10.zip",
+        "sizeBytes": 36364613,
+        "sha256": "e66be8411271cddffcfd5f08bf8c3ffe5082fce1133cd5a1a16e74bebfde88ba",
+        "version": "2026.10.10",
+        "packageId": "poot-poot-browser-2026-10-10-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
+    "webDemo": "https://kadabra.games/play/poot-poot/"
+  },
+  "stable": {
+    "title": "Poot-Poot",
+    "tag": "October 10 portable browser edition",
+    "updatedAt": "2026-10-14T22:27:28.711Z",
+    "webDemo": "https://kadabra.games/play/poot-poot/",
+    "webDemoLabel": "Play in your browser",
+    "knownPublished": true,
+    "directAssets": {}
+  }
+}
