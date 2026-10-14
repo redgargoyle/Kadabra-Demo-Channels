@@ -1,11 +1,35 @@
 {
-  "revision": 3,
+  "revision": 4,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
     "poot-poot-browser-2026-10-10-windows": "18475880d76a69babef8995ef71b10cfb49298eadab661d94533498be8e4d115",
-    "poot-poot-browser-2026-10-10-macos": "789edd0e43aac60edd72ed405cf9a59b196ab4874f691298f97c2a7b7de54e23"
+    "poot-poot-browser-2026-10-10-macos": "789edd0e43aac60edd72ed405cf9a59b196ab4874f691298f97c2a7b7de54e23",
+    "chantilly-6f6c4115d85f-macos-x64": "df6c4e6adad1db042b4e30c1efe467082a0223b86c87ba8b86f3c9f5c4494592",
+    "chantilly-82867e2b09dd-linux-x64": "2eb6f5f6eb196a7a3537ad2d5b1ba73c41eaaaffd1ef5d92eec9913fde6c6f6a",
+    "chantilly-f42d1986480a-windows-x64": "d17920d6312621966eda17f6a1d513fbf66045c852d238904d5ce9eccd97ce07",
+    "cliff-cities-39286f8bc345-windows-x64": "596570f1f67b8928052c3e3dfd73552af4d940052c692bff7252fd0d75572990",
+    "cliff-cities-82b7164c3178-linux-x64": "7edaa6d2979e79f11a066672a58eb139c6e2734fab2e5205ca630011780c8275",
+    "dark-between-stations-d5399c64c666-linux-x64": "f40fa0c5401706f32977e2713ade8f5b1d598f9219bd9e2d8ac580f25fc8528c",
+    "dark-between-stations-f289db7a07ef-windows-x64": "6d47d1636a7fdffbc5e0b8a8b21b93abfd06a064e06501d192ddf65c3988dc31",
+    "echoes-tcg-table-r2-20261004-linux": "2636781e3a57577ea5bbf17f48b20bcb599a7f9a43488bd59a13de7d807bded9",
+    "echoes-tcg-table-r2-20261004-macos": "6a78a8599659cc492519eabcd6f76863991a3c6cecc4d088d17c95d17fa63628",
+    "echoes-tcg-table-r2-20261004-windows": "cdc19050f7f016bba188542de33509843406740ffdaa6d46b5be70f2e0d7344f",
+    "golden-keep-rts-ad341927123f-linux-x64": "2ae5be18d960233a6148a490167b9238a6eb783693897abe9ca2498818273eb5",
+    "golden-keep-rts-c6897b63ff95-windows-x64": "c65203eceefec16789b58cce7c8d3bbf5e7b736fb14ec1653c0caa7911d9cf43",
+    "golden-ocean-4ee6ae9079c4-windows-x64": "ffc7d85df4fc2c4875d9d3eb633a19936b6a42e4388a9399ee73d86fd34c9e36",
+    "golden-ocean-bcd35d6d555b-linux-x64": "deea473e93530b950f5228d331a51dbc484722085c7fa04c503f5e77aa8d8632",
+    "inhospitable-5baeb48004bc-windows-x64": "d2564a188c7745d09ec06e00fde005be0c1799e31cd93efed0ae41ae6e11196d",
+    "inhospitable-ae458e702f5f-linux-x64": "f685a68341dff976078e559f56af5b66bfbf310b35c2ea73f92e341d8ae7f136",
+    "inhospitable-c65acac9f1ef-macos-x64": "6a8e8c6dfac0dc98a4475e90a20de7a6b5e6ff43502dbb5d57778f86dc873d63",
+    "iron-litany-1b67c16632f6-windows-x64": "40859ce7226d6c2bfa40af3ae6d5e115dab8860bc1a1d47aa6cfbf5e9b90ab66",
+    "iron-litany-b553edbe9489-linux-x64": "2d8ca014ddb54d7b9d25cbde390bb1880978a0f55276e2bb4d45ff5bb458eed9",
+    "jabberwocky-24f717dbc9df-linux-x64": "c3b6471ed98b1b07ecabf2d5e247258d1d720d397abdc16e31ac5107ffc1f487",
+    "jabberwocky-2fda3444a84d-windows-x64": "35e99709c83ab731b5012339a97934d338ebb889af88beae9183517cb370cfd0",
+    "your-happy-place-3ee889cfc8ed-windows-x64": "e64b73c405ebb3af072a8baa703594087e954fc9a91200fce3e09573b5f3f1a6",
+    "your-happy-place-7dad90e9df4d-macos-x64": "ce4b69e961a22a109953843a35aa2b7836abb65988a07f6b5a04a0ba80593464",
+    "your-happy-place-de3b97b34cd1-linux-x64": "be98970455e248d24eea1e3268b3db90036caff8b0e07cdd3b82ebec0bdeec83"
   },
-  "catalogHash": "c1848c9fb055e85226255efb3bb9c5e9df3ffa69d8bd7e1d2cf06a8c9c8dfab7",
-  "publishedAt": "2026-10-14T20:54:40.931Z"
+  "catalogHash": "ae28e6cbf66f946b7db9ac6633b6053555dccf472d5d9fe681b60763d869155e",
+  "publishedAt": "2026-10-14T21:09:42.619Z"
 }
