@@ -1,3 +1,4 @@
+import {validateLauncherRelease} from './launcher-update.mjs';
 const idPattern = /^[a-z0-9][a-z0-9-]{0,79}$/;
 const platforms = new Set(['linux', 'windows', 'macos']);
 export function assert(condition, message) { if (!condition) throw new Error(message); }
@@ -34,6 +35,7 @@ export function validatePackage(p) {
 export function validateCatalog(c) {
   assert(c?.schemaVersion === 1 && Number.isSafeInteger(c.revision) && c.revision > 0, 'Unsupported catalog');
   if(c.validUntil) assert(Number.isFinite(Date.parse(c.validUntil)), 'Invalid catalog expiry');
+  if(c.launcherReleases){assert(Array.isArray(c.launcherReleases)&&c.launcherReleases.length<=40,'Invalid launcher releases');const targets=new Set();for(const r of c.launcherReleases){validateLauncherRelease(r);const key=r.platform+':'+r.arch;assert(!targets.has(key),'Duplicate launcher target');targets.add(key);}}
   assert(Array.isArray(c.games) && c.games.length <= 300 && Array.isArray(c.packages) && c.packages.length <= 2000, 'Catalog too large');
   const games = new Set(); const packages = new Set();
   for (const g of c.games) { validId(g.id); assert(!games.has(g.id), 'Duplicate game'); games.add(g.id); assert(typeof g.title === 'string' && g.title.length < 180, 'Invalid title'); }
