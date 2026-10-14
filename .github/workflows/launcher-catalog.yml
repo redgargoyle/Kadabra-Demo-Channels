@@ -1,0 +1,36 @@
+name: Renew Kadabra launcher preview catalog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */12 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: kadabra-launcher-catalog
+  cancel-in-progress: false
+jobs:
+  renew:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '26'
+          cache: npm
+          cache-dependency-path: launcher/publisher/package-lock.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+        working-directory: launcher/publisher
+      - run: node launcher/publisher/tools/renew.mjs
+        env:
+          KADABRA_TUF_ONLINE_KEYS: ${{ secrets.KADABRA_TUF_ONLINE_KEYS }}
+      - name: Commit the complete signed publication atomically
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add launcher/v1
+          git diff --cached --quiet && exit 0
+          git commit -m 'Renew signed Kadabra launcher preview catalog'
+          git push origin HEAD:main

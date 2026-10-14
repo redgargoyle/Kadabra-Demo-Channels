@@ -1,0 +1,11 @@
+{
+  "name": "kadabra-catalog-publisher",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "dependencies": {
+    "@tufjs/models": "5.0.0"
+  }
+}
