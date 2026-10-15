@@ -1,5 +1,5 @@
 {
-  "revision": 8,
+  "revision": 9,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -30,6 +30,6 @@
     "your-happy-place-7dad90e9df4d-macos-x64": "ce4b69e961a22a109953843a35aa2b7836abb65988a07f6b5a04a0ba80593464",
     "your-happy-place-de3b97b34cd1-linux-x64": "be98970455e248d24eea1e3268b3db90036caff8b0e07cdd3b82ebec0bdeec83"
   },
-  "catalogHash": "31c825214c5b6721a37c4337c5e57f70bc3125cc4d8c96a7d6f532d35a2347a9",
-  "publishedAt": "2026-10-14T22:54:55.077Z"
+  "catalogHash": "c203119bcb66406a833530143927d028454ade6c646b9800ce2c6c96aad404b3",
+  "publishedAt": "2026-10-15T04:35:58.126Z"
 }
