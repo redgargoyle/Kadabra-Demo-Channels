@@ -22,6 +22,8 @@ export function validatePackage(p) {
   assert(p.sizeBytes <= 10 * 1024 ** 3 && p.unpackedBytes <= 40 * 1024 ** 3 && p.maxFiles <= 100000, 'Package exceeds limits');
   relativePath(p.entrypoint);
   if (p.cwd) relativePath(p.cwd);
+  if(p.launchModes){assert(p.kind==='native'&&Array.isArray(p.launchModes)&&p.launchModes.length<=6,'Invalid launch modes');const modes=new Set();for(const m of p.launchModes){validId(m.id);assert(!modes.has(m.id),'Duplicate launch mode');modes.add(m.id);assert(typeof m.label==='string'&&m.label.length>0&&m.label.length<80&&Array.isArray(m.args)&&m.args.length<24&&m.args.every(a=>typeof a==='string'&&a.length<1024&&!a.includes('\0')),'Invalid launch mode');}}
+  if(p.backend){assert(p.kind==='web','Service requires the embedded game window');assert(p.backend&&typeof p.backend==='object','Missing bundled service');relativePath(p.backend.executable);relativePath(p.backend.script);assert(typeof p.backend.entryRoute==='string'&&p.backend.entryRoute.startsWith('/')&&!p.backend.entryRoute.startsWith('//')&&!/[\\\x00-\x20#]/.test(p.backend.entryRoute),'Invalid service entry route');}
   assert(!p.args || Array.isArray(p.args) && p.args.length < 24 && p.args.every(a => typeof a === 'string' && a.length < 1024 && !a.includes('\0')), 'Invalid arguments');
   assert(typeof p.url === 'string', 'Missing package URL');
   const url = new URL(p.url);
