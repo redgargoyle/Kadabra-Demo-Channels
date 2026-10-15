@@ -42,7 +42,7 @@
     {
       "id": "iron-litany",
       "title": "Iron Litany",
-      "version": "v0.5.6 · Thunder in the iron",
+      "version": "v0.5.6 \u00b7 Thunder in the iron",
       "description": "Work with a cannon crew through three watches. A playable early edition, with art, audio and balance still in review.",
       "platforms": [
         "windows",
@@ -96,7 +96,7 @@
       "id": "wrong-places",
       "title": "Wrong Places",
       "version": "0.23.0",
-      "description": "Eleven ordinary-looking places refuse to follow ordinary rules. A coastal walk, a small theatre, a quiet room and an impossible map each ask you to notice something different—and use what you learn to leave.",
+      "description": "Eleven ordinary-looking places refuse to follow ordinary rules. A coastal walk, a small theatre, a quiet room and an impossible map each ask you to notice something different\u2014and use what you learn to leave.",
       "platforms": [
         "linux",
         "windows",
@@ -149,7 +149,7 @@
       "id": "jabberwocky",
       "title": "Golden Keep: Jabberwocky",
       "version": "October 3 authored-world development demo",
-      "description": "Create a human, orc, black dwarf or gargoyle and meet Golden Keep at a traveler’s height. Explore settlements, accept quests and choose your encounters. Gargoyles can take to the wind; on the ground, wounds and limited treatment give a fight consequences.",
+      "description": "Create a human, orc, black dwarf or gargoyle and meet Golden Keep at a traveler\u2019s height. Explore settlements, accept quests and choose your encounters. Gargoyles can take to the wind; on the ground, wounds and limited treatment give a fight consequences.",
       "platforms": [
         "linux",
         "windows"
@@ -236,7 +236,7 @@
     {
       "id": "echoes-of-elsewhere-tcg",
       "title": "Echoes of Elsewhere TCG",
-      "version": "Playable table edition r2 · October 4, 2026",
+      "version": "Playable table edition r2 \u00b7 October 4, 2026",
       "description": "Build a creature deck, awaken its abilities and follow twelve keepers through a world waiting to be remembered. Play offline, with your collection saved on this computer.",
       "platforms": [
         "windows",
@@ -386,7 +386,7 @@
     },
     {
       "id": "schwarzkamm",
-      "title": "SCHWARZKAMM · Black Ridge",
+      "title": "SCHWARZKAMM \u00b7 Black Ridge",
       "version": "0.3.0",
       "description": "Fly Operation Abendlied: a continuous fifteen-minute bomber sortie through nine phases, with a 512-aircraft formation, coordinated interceptions, a bombing run and withdrawal. German crew recordings and English or German captions accompany the flight. The seven-base archive campaign is included.",
       "platforms": [
@@ -2161,5 +2161,19 @@
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
-  "minimumLauncherVersion": "0.3.0"
+  "minimumLauncherVersion": "0.3.0",
+  "launcherReleases": [
+    {
+      "version": "0.3.0",
+      "platform": "linux",
+      "arch": "x64",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-v0.3.0/Kadabra.Launcher-0.3.0.AppImage",
+      "sha256": "411b16d8b02513fdb229e1e8e6b2a0e6411baa3fcb37a22bbc6f7101651ed9c8",
+      "sha512": "Ud0Uh4rlzr7cvnW54BGnLE6XTj6NrffnRgIaiQ8c1qZ0MdapMVN3hIpfd4bJSNKZdW4qjC3+2Sd618egtLVAYg==",
+      "sizeBytes": 129190855,
+      "qualification": "qualified",
+      "qualifiedAt": "2026-10-15T18:28:30.888Z",
+      "updateRuntimeTested": true
+    }
+  ]
 }
