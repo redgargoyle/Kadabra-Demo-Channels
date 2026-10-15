@@ -45,14 +45,16 @@
       "version": "v0.5.6 · Thunder in the iron",
       "description": "Work with a cannon crew through three watches. A playable early edition, with art, audio and balance still in review.",
       "platforms": [
+        "windows",
         "linux",
-        "windows"
+        "macos"
       ],
       "webUrl": "https://kadabra.games/play/iron-litany/game/",
       "status": "Preview packages available",
       "recommendedPackages": {
         "windows:x64": "iron-litany-1b67c16632f6-windows-x64",
-        "linux:x64": "iron-litany-b553edbe9489-linux-x64"
+        "linux:x64": "iron-litany-b553edbe9489-linux-x64",
+        "macos:any": "iron-litany-0-5-6-offline-macos"
       }
     },
     {
@@ -116,13 +118,15 @@
       "description": "Captain an enormous wooden hulk carrying sixty people to a new home. Study the chart, give sail orders and allow the crew time to answer. Walk the working decks and return to the helm as the weather changes: everyone aboard depends on the passage you choose.",
       "platforms": [
         "windows",
-        "linux"
+        "linux",
+        "macos"
       ],
       "webUrl": "https://kadabra.games/demos/golden-ocean/",
       "status": "Preview packages available",
       "recommendedPackages": {
         "windows:x64": "golden-ocean-4ee6ae9079c4-windows-x64",
-        "linux:x64": "golden-ocean-bcd35d6d555b-linux-x64"
+        "linux:x64": "golden-ocean-bcd35d6d555b-linux-x64",
+        "macos:any": "golden-ocean-0-7-5-afd2bb9-offline-macos"
       }
     },
     {
@@ -379,6 +383,25 @@
         "macos:any": "pelagic-0-6-0-offline-macos"
       },
       "releaseChannel": "preview"
+    },
+    {
+      "id": "schwarzkamm",
+      "title": "SCHWARZKAMM · Black Ridge",
+      "version": "0.3.0",
+      "description": "Fly Operation Abendlied: a continuous fifteen-minute bomber sortie through nine phases, with a 512-aircraft formation, coordinated interceptions, a bombing run and withdrawal. German crew recordings and English or German captions accompany the flight. The seven-base archive campaign is included.",
+      "platforms": [
+        "linux",
+        "windows",
+        "macos"
+      ],
+      "webUrl": "https://kadabra.games/schwarzkamm.html",
+      "status": "Available to install and play",
+      "releaseChannel": "preview",
+      "recommendedPackages": {
+        "linux:any": "schwarzkamm-0-3-0-offline-linux",
+        "windows:any": "schwarzkamm-0-3-0-offline-windows",
+        "macos:any": "schwarzkamm-0-3-0-offline-macos"
+      }
     }
   ],
   "packages": [
@@ -2017,8 +2040,126 @@
           ]
         }
       ]
+    },
+    {
+      "id": "iron-litany-0-5-6-offline-macos",
+      "gameId": "iron-litany",
+      "version": "0.5.6",
+      "sequence": 2026101502,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/iron-litany-0.5.6-offline.zip",
+      "sha256": "0776200b28517cdebfda6d57dfe2ff0740b6467df88c639c193f7189c29a4d6c",
+      "sizeBytes": 44579431,
+      "unpackedBytes": 51905353,
+      "maxFiles": 285,
+      "entrypoint": "game/index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1"
+    },
+    {
+      "id": "golden-ocean-0-7-5-afd2bb9-offline-macos",
+      "gameId": "golden-ocean",
+      "version": "0.7.5-afd2bb9",
+      "sequence": 2026101502,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/golden-ocean-0.7.5-afd2bb9-offline.zip",
+      "sha256": "c375df2f8183005c5a9c0abd616462f7afd0db771db44f6ee195e2282e970846",
+      "sizeBytes": 876932039,
+      "unpackedBytes": 901027069,
+      "maxFiles": 2281,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1"
+    },
+    {
+      "id": "schwarzkamm-0-3-0-offline-linux",
+      "gameId": "schwarzkamm",
+      "version": "0.3.0",
+      "sequence": 2026101503,
+      "platform": "linux",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
+      "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
+      "sizeBytes": 6334796,
+      "unpackedBytes": 8147565,
+      "maxFiles": 53,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceSiteCommit": "1d069cc09c823a1154d734c46d0bef176e3ddf46"
+    },
+    {
+      "id": "schwarzkamm-0-3-0-offline-windows",
+      "gameId": "schwarzkamm",
+      "version": "0.3.0",
+      "sequence": 2026101503,
+      "platform": "windows",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
+      "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
+      "sizeBytes": 6334796,
+      "unpackedBytes": 8147565,
+      "maxFiles": 53,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceSiteCommit": "1d069cc09c823a1154d734c46d0bef176e3ddf46"
+    },
+    {
+      "id": "schwarzkamm-0-3-0-offline-macos",
+      "gameId": "schwarzkamm",
+      "version": "0.3.0",
+      "sequence": 2026101503,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
+      "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
+      "sizeBytes": 6334796,
+      "unpackedBytes": 8147565,
+      "maxFiles": 53,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceSiteCommit": "1d069cc09c823a1154d734c46d0bef176e3ddf46"
     }
   ],
-  "validUntil": "2026-10-18T17:56:12.844Z",
+  "validUntil": "2026-10-18T18:21:58.577Z",
   "minimumLauncherVersion": "0.3.0"
 }
