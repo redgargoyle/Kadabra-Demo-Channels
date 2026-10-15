@@ -1,13 +1,47 @@
 {
   "schemaVersion": 2,
-  "revision": 10,
-  "publishedAt": "2026-10-15T16:58:55.680Z",
+  "revision": 11,
+  "publishedAt": "2026-10-15T18:01:29.239Z",
   "gameId": "filmflight",
   "title": "WW2 Combat Footage Flight Simulator",
   "preview": {
-    "version": "ca1c088 / photographic corridor",
+    "version": "2026.10.14-materials-flight",
     "hidden": false,
-    "targets": {},
+    "targets": {
+      "linux:any": {
+        "name": "filmflight-2026.10.14-materials-flight-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/filmflight-2026.10.14-materials-flight-offline.zip",
+        "sizeBytes": 21439893,
+        "sha256": "1ff55ac16f2f18af580d6651a9cfccc74a65d5deaef55c09548b10b96b38cd40",
+        "version": "2026.10.14-materials-flight",
+        "packageId": "filmflight-2026-10-14-materials-flight-offline-linux",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "any"
+      },
+      "windows:any": {
+        "name": "filmflight-2026.10.14-materials-flight-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/filmflight-2026.10.14-materials-flight-offline.zip",
+        "sizeBytes": 21439893,
+        "sha256": "1ff55ac16f2f18af580d6651a9cfccc74a65d5deaef55c09548b10b96b38cd40",
+        "version": "2026.10.14-materials-flight",
+        "packageId": "filmflight-2026-10-14-materials-flight-offline-windows",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "any"
+      },
+      "macos:any": {
+        "name": "filmflight-2026.10.14-materials-flight-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/filmflight-2026.10.14-materials-flight-offline.zip",
+        "sizeBytes": 21439893,
+        "sha256": "1ff55ac16f2f18af580d6651a9cfccc74a65d5deaef55c09548b10b96b38cd40",
+        "version": "2026.10.14-materials-flight",
+        "packageId": "filmflight-2026-10-14-materials-flight-offline-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
     "webDemo": "https://kadabra.games/studio-games/filmflight-harbor/"
   },
   "stable": {

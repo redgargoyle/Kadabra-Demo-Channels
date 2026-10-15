@@ -1,13 +1,58 @@
 {
   "schemaVersion": 2,
-  "revision": 10,
-  "publishedAt": "2026-10-15T16:58:55.680Z",
+  "revision": 11,
+  "publishedAt": "2026-10-15T18:01:29.239Z",
   "gameId": "war-table",
   "title": "War Table",
   "preview": {
-    "version": "Local browser demo · 7900f5f",
+    "version": "7900f5f",
     "hidden": false,
-    "targets": {},
+    "targets": {
+      "linux:x64": {
+        "name": "war-table-7900f5f-bundled-linux-x64.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/war-table-7900f5f-bundled-linux-x64.zip",
+        "sizeBytes": 210394925,
+        "sha256": "d426a943669cd7bd7d3cd7d29f0d7eaf0a41701b698ee35b39d72a44eff9ec02",
+        "version": "7900f5f",
+        "packageId": "war-table-7900f5f-bundled-linux-x64-r2",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "x64"
+      },
+      "windows:x64": {
+        "name": "war-table-7900f5f-bundled-windows-x64.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/war-table-7900f5f-bundled-windows-x64.zip",
+        "sizeBytes": 157353387,
+        "sha256": "e78a33bd7ee040d5025fae02bb8e2ab65777d4310fa10acd99af574d527586c3",
+        "version": "7900f5f",
+        "packageId": "war-table-7900f5f-bundled-windows-x64-r2",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "x64"
+      },
+      "macos:x64": {
+        "name": "war-table-7900f5f-bundled-macos-x64.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/war-table-7900f5f-bundled-macos-x64.zip",
+        "sizeBytes": 156848054,
+        "sha256": "c0d2e2c20a4d76223d9150c858d04ea491041988e2acfc4eab78970e5aabedda",
+        "version": "7900f5f",
+        "packageId": "war-table-7900f5f-bundled-macos-x64-r2",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "x64"
+      },
+      "macos:arm64": {
+        "name": "war-table-7900f5f-bundled-macos-arm64.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/war-table-7900f5f-bundled-macos-arm64.zip",
+        "sizeBytes": 171713952,
+        "sha256": "65715c7966575c80ab2b0bfea0e3e1365d259fde587d744f3ab989ba7b09a655",
+        "version": "7900f5f",
+        "packageId": "war-table-7900f5f-bundled-macos-arm64-r2",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "arm64"
+      }
+    },
     "webDemo": null
   },
   "stable": {

@@ -1,13 +1,47 @@
 {
   "schemaVersion": 2,
-  "revision": 10,
-  "publishedAt": "2026-10-15T16:58:55.680Z",
+  "revision": 11,
+  "publishedAt": "2026-10-15T18:01:29.239Z",
   "gameId": "swarm",
   "title": "SWARM",
   "preview": {
-    "version": "Revised campaign / 5069b0e",
+    "version": "0.7.0-5069b0e",
     "hidden": false,
-    "targets": {},
+    "targets": {
+      "linux:any": {
+        "name": "swarm-0.7.0-5069b0e-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/swarm-0.7.0-5069b0e-offline.zip",
+        "sizeBytes": 18959388,
+        "sha256": "aa67eb5524b63081bb510a09c16e4c37aacf319ef176c1717e0c72404635bbe9",
+        "version": "0.7.0-5069b0e",
+        "packageId": "swarm-0-7-0-5069b0e-offline-linux",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "any"
+      },
+      "windows:any": {
+        "name": "swarm-0.7.0-5069b0e-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/swarm-0.7.0-5069b0e-offline.zip",
+        "sizeBytes": 18959388,
+        "sha256": "aa67eb5524b63081bb510a09c16e4c37aacf319ef176c1717e0c72404635bbe9",
+        "version": "0.7.0-5069b0e",
+        "packageId": "swarm-0-7-0-5069b0e-offline-windows",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "any"
+      },
+      "macos:any": {
+        "name": "swarm-0.7.0-5069b0e-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/swarm-0.7.0-5069b0e-offline.zip",
+        "sizeBytes": 18959388,
+        "sha256": "aa67eb5524b63081bb510a09c16e4c37aacf319ef176c1717e0c72404635bbe9",
+        "version": "0.7.0-5069b0e",
+        "packageId": "swarm-0-7-0-5069b0e-offline-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
     "webDemo": "https://kadabra.games/studio-games/swarm/"
   },
   "stable": {

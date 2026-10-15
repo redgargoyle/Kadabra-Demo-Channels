@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "revision": 10,
-  "publishedAt": "2026-10-15T16:58:55.680Z",
+  "revision": 11,
+  "publishedAt": "2026-10-15T18:01:29.239Z",
   "gameId": "chantilly",
   "title": "Chantilly",
   "preview": {
-    "version": "September 30 cursor update",
+    "version": "2026.10.15-evening-preview",
     "hidden": false,
     "targets": {
       "linux:x64": {
-        "name": "Chantilly-Linux-20260930-dc0812b.tar.gz",
-        "url": "https://github.com/redgargoyle/Chantilly-Releases/releases/download/v2026.09.30-cursor/Chantilly-Linux-20260930-dc0812b.tar.gz",
-        "sizeBytes": 275368198,
-        "sha256": "82867e2b09ddcc9269527b426e070e34317f5866d17ed81f88127ea17b24a388",
-        "version": "September 30 cursor update",
-        "packageId": "chantilly-82867e2b09dd-linux-x64",
+        "name": "chantilly-2026.10.15-evening-preview-linux-x64.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/chantilly-2026.10.15-evening-preview-linux-x64.zip",
+        "sizeBytes": 277724690,
+        "sha256": "4ae8d911d0ab6c4e188d4ea3a2115e27038a71ed9e652028774c6bfadff8b23e",
+        "version": "2026.10.15-evening-preview",
+        "packageId": "chantilly-2026-10-15-evening-linux-x64",
         "kind": "native",
         "platform": "linux",
         "arch": "x64"

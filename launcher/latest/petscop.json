@@ -1,13 +1,47 @@
 {
   "schemaVersion": 2,
-  "revision": 10,
-  "publishedAt": "2026-10-15T16:58:55.680Z",
+  "revision": 11,
+  "publishedAt": "2026-10-15T18:01:29.239Z",
   "gameId": "petscop",
   "title": "Petscop",
   "preview": {
-    "version": "0.13 / Garalina development edition",
+    "version": "0.13",
     "hidden": false,
-    "targets": {},
+    "targets": {
+      "linux:any": {
+        "name": "petscop-0.13-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/petscop-0.13-offline.zip",
+        "sizeBytes": 28185420,
+        "sha256": "14cdad425e2c93944573c1868a37800faccf9c619844ea6402495d85008f5c18",
+        "version": "0.13",
+        "packageId": "petscop-0-13-offline-linux",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "any"
+      },
+      "windows:any": {
+        "name": "petscop-0.13-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/petscop-0.13-offline.zip",
+        "sizeBytes": 28185420,
+        "sha256": "14cdad425e2c93944573c1868a37800faccf9c619844ea6402495d85008f5c18",
+        "version": "0.13",
+        "packageId": "petscop-0-13-offline-windows",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "any"
+      },
+      "macos:any": {
+        "name": "petscop-0.13-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/petscop-0.13-offline.zip",
+        "sizeBytes": 28185420,
+        "sha256": "14cdad425e2c93944573c1868a37800faccf9c619844ea6402495d85008f5c18",
+        "version": "0.13",
+        "packageId": "petscop-0-13-offline-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
     "webDemo": "https://kadabra.games/studio-games/petscop-0.13/"
   },
   "stable": {

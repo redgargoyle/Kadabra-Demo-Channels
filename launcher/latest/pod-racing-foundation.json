@@ -1,13 +1,47 @@
 {
   "schemaVersion": 2,
-  "revision": 10,
-  "publishedAt": "2026-10-15T16:58:55.680Z",
+  "revision": 11,
+  "publishedAt": "2026-10-15T18:01:29.239Z",
   "gameId": "pod-racing-foundation",
   "title": "Pod-racing foundation",
   "preview": {
     "version": "0.2.0",
     "hidden": false,
-    "targets": {},
+    "targets": {
+      "linux:any": {
+        "name": "pod-racing-foundation-0.2.0-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/pod-racing-foundation-0.2.0-offline.zip",
+        "sizeBytes": 439085,
+        "sha256": "d65d9335ff116c6633c106f140496dbb45b4ce923270ec9d47bc2e3325788f63",
+        "version": "0.2.0",
+        "packageId": "pod-racing-foundation-0-2-0-offline-linux",
+        "kind": "web",
+        "platform": "linux",
+        "arch": "any"
+      },
+      "windows:any": {
+        "name": "pod-racing-foundation-0.2.0-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/pod-racing-foundation-0.2.0-offline.zip",
+        "sizeBytes": 439085,
+        "sha256": "d65d9335ff116c6633c106f140496dbb45b4ce923270ec9d47bc2e3325788f63",
+        "version": "0.2.0",
+        "packageId": "pod-racing-foundation-0-2-0-offline-windows",
+        "kind": "web",
+        "platform": "windows",
+        "arch": "any"
+      },
+      "macos:any": {
+        "name": "pod-racing-foundation-0.2.0-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/pod-racing-foundation-0.2.0-offline.zip",
+        "sizeBytes": 439085,
+        "sha256": "d65d9335ff116c6633c106f140496dbb45b4ce923270ec9d47bc2e3325788f63",
+        "version": "0.2.0",
+        "packageId": "pod-racing-foundation-0-2-0-offline-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
+      }
+    },
     "webDemo": "https://kadabra.games/studio-games/pod-racing-foundation/v0.2.0/"
   },
   "stable": {
