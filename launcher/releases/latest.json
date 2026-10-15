@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "version": "0.3.0",
+  "publishedAt": "2026-10-15T18:25:34.659Z",
+  "channel": "preview",
+  "totalGames": 22,
+  "coverage": {
+    "linux": 22,
+    "windows": 21,
+    "macos": 17
+  },
+  "targets": {
+    "linux:x64": {
+      "version": "0.3.0",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-v0.3.0/Kadabra.Launcher-0.3.0.AppImage",
+      "sha256": "411b16d8b02513fdb229e1e8e6b2a0e6411baa3fcb37a22bbc6f7101651ed9c8",
+      "sizeBytes": 129190855
+    },
+    "windows:x64": {
+      "version": "0.3.0",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-v0.3.0/Kadabra.Launcher.Setup.0.3.0.exe",
+      "sha256": "642c4f69a48ee04ba76480cbdf2d3ff9bf40a5d37ad16cd4b43950f9f4407f9a",
+      "sizeBytes": 130651918
+    },
+    "macos:x64": {
+      "version": "0.3.0",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-v0.3.0/Kadabra.Launcher-0.3.0-mac.zip",
+      "sha256": "27bd6475c3d18ffd40c3ff617f677c33f94e7be326f7aebefaf2f9ecf1e8d3f4",
+      "sizeBytes": 143499775
+    },
+    "macos:arm64": {
+      "version": "0.3.0",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-v0.3.0/Kadabra.Launcher-0.3.0-arm64-mac.zip",
+      "sha256": "78d4e26b7bc70e503fa74a2d455858539a79a85fead4503fcdea6a5715cfee89",
+      "sizeBytes": 138152953
+    }
+  }
+}
