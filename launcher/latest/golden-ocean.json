@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 11,
-  "publishedAt": "2026-10-15T18:01:29.239Z",
+  "revision": 12,
+  "publishedAt": "2026-10-15T18:24:45.977Z",
   "gameId": "golden-ocean",
   "title": "Golden Keep: Golden Ocean",
   "preview": {
@@ -29,6 +29,17 @@
         "kind": "native",
         "platform": "windows",
         "arch": "x64"
+      },
+      "macos:any": {
+        "name": "golden-ocean-0.7.5-afd2bb9-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/golden-ocean-0.7.5-afd2bb9-offline.zip",
+        "sizeBytes": 876932039,
+        "sha256": "c375df2f8183005c5a9c0abd616462f7afd0db771db44f6ee195e2282e970846",
+        "version": "0.7.5-afd2bb9",
+        "packageId": "golden-ocean-0-7-5-afd2bb9-offline-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
       }
     },
     "webDemo": "https://kadabra.games/demos/golden-ocean/"

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 11,
-  "publishedAt": "2026-10-15T18:01:29.239Z",
+  "revision": 12,
+  "publishedAt": "2026-10-15T18:24:45.977Z",
   "games": {
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
@@ -149,6 +149,17 @@
             "kind": "native",
             "platform": "windows",
             "arch": "x64"
+          },
+          "macos:any": {
+            "name": "iron-litany-0.5.6-offline.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/iron-litany-0.5.6-offline.zip",
+            "sizeBytes": 44579431,
+            "sha256": "0776200b28517cdebfda6d57dfe2ff0740b6467df88c639c193f7189c29a4d6c",
+            "version": "0.5.6",
+            "packageId": "iron-litany-0-5-6-offline-macos",
+            "kind": "web",
+            "platform": "macos",
+            "arch": "any"
           }
         },
         "webDemo": "https://kadabra.games/play/iron-litany/game/"
@@ -364,6 +375,17 @@
             "kind": "native",
             "platform": "windows",
             "arch": "x64"
+          },
+          "macos:any": {
+            "name": "golden-ocean-0.7.5-afd2bb9-offline.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/golden-ocean-0.7.5-afd2bb9-offline.zip",
+            "sizeBytes": 876932039,
+            "sha256": "c375df2f8183005c5a9c0abd616462f7afd0db771db44f6ee195e2282e970846",
+            "version": "0.7.5-afd2bb9",
+            "packageId": "golden-ocean-0-7-5-afd2bb9-offline-macos",
+            "kind": "web",
+            "platform": "macos",
+            "arch": "any"
           }
         },
         "webDemo": "https://kadabra.games/demos/golden-ocean/"
@@ -1264,6 +1286,50 @@
         "knownPublished": true,
         "directAssets": {}
       }
+    },
+    "schwarzkamm": {
+      "title": "SCHWARZKAMM · Black Ridge",
+      "preview": {
+        "version": "0.3.0",
+        "hidden": false,
+        "targets": {
+          "linux:any": {
+            "name": "schwarzkamm-0.3.0-offline.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
+            "sizeBytes": 6334796,
+            "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
+            "version": "0.3.0",
+            "packageId": "schwarzkamm-0-3-0-offline-linux",
+            "kind": "web",
+            "platform": "linux",
+            "arch": "any"
+          },
+          "windows:any": {
+            "name": "schwarzkamm-0.3.0-offline.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
+            "sizeBytes": 6334796,
+            "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
+            "version": "0.3.0",
+            "packageId": "schwarzkamm-0-3-0-offline-windows",
+            "kind": "web",
+            "platform": "windows",
+            "arch": "any"
+          },
+          "macos:any": {
+            "name": "schwarzkamm-0.3.0-offline.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
+            "sizeBytes": 6334796,
+            "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
+            "version": "0.3.0",
+            "packageId": "schwarzkamm-0-3-0-offline-macos",
+            "kind": "web",
+            "platform": "macos",
+            "arch": "any"
+          }
+        },
+        "webDemo": "https://kadabra.games/schwarzkamm.html"
+      },
+      "stable": null
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "revision": 11,
+  "revision": 12,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -60,8 +60,13 @@
     "war-table-7900f5f-bundled-macos-arm64-r2": "706cf7c7802edf4516706abada83a870d9b05d981aff391bc790c8f704594daf",
     "chantilly-2026-10-15-evening-linux-x64": "8432dadab5875055355c55c079894a01737e8a41058d3c78cf696498997c212e",
     "golden-keep-rts-59a05e2e6954-linux-x64": "dae597ee3f3c39bce37d72170b12a0cd16f0cf5013486631a647b789a3bb7058",
-    "golden-keep-rts-1a8505b3f362-windows-x64": "96ecb43dda2d1b2df3adb8d6e6daf0efbe9cc540eadfd0c6ffc8e4217b0c0d95"
+    "golden-keep-rts-1a8505b3f362-windows-x64": "96ecb43dda2d1b2df3adb8d6e6daf0efbe9cc540eadfd0c6ffc8e4217b0c0d95",
+    "iron-litany-0-5-6-offline-macos": "ed53396669829e9138dd6325528bdcd928c655c0cee2f4f6aa989effbb60ee21",
+    "golden-ocean-0-7-5-afd2bb9-offline-macos": "bed9291781687c61ad40e7c3446a9d15c73735be8ec323132c72af5934efa0bd",
+    "schwarzkamm-0-3-0-offline-linux": "0dc85a10250f617d7d2518e3e030700c6ee5383b4873aa8f9d812576c32f9ec3",
+    "schwarzkamm-0-3-0-offline-windows": "140a0fadbe0903175fb65cfe81aa668947a0640f74e6b54d35dd9f90416eaa4a",
+    "schwarzkamm-0-3-0-offline-macos": "7dce69e492178225ef4a9aeb64b48a95449480a929372c7515397435ab1042aa"
   },
-  "catalogHash": "116801f5d564966e123106e9c3cae574b404c2710a10a3e8ccceeb0c4cdd54f5",
-  "publishedAt": "2026-10-15T18:01:29.237Z"
+  "catalogHash": "ad48315dbb870e1348c3505cefa90f9d6ee4c220c3c6e5ecfa71b88c3ec01086",
+  "publishedAt": "2026-10-15T18:24:45.970Z"
 }

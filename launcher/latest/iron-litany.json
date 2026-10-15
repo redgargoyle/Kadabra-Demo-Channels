@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 11,
-  "publishedAt": "2026-10-15T18:01:29.239Z",
+  "revision": 12,
+  "publishedAt": "2026-10-15T18:24:45.977Z",
   "gameId": "iron-litany",
   "title": "Iron Litany",
   "preview": {
@@ -29,6 +29,17 @@
         "kind": "native",
         "platform": "windows",
         "arch": "x64"
+      },
+      "macos:any": {
+        "name": "iron-litany-0.5.6-offline.zip",
+        "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/iron-litany-0.5.6-offline.zip",
+        "sizeBytes": 44579431,
+        "sha256": "0776200b28517cdebfda6d57dfe2ff0740b6467df88c639c193f7189c29a4d6c",
+        "version": "0.5.6",
+        "packageId": "iron-litany-0-5-6-offline-macos",
+        "kind": "web",
+        "platform": "macos",
+        "arch": "any"
       }
     },
     "webDemo": "https://kadabra.games/play/iron-litany/game/"
