@@ -1,5 +1,5 @@
 {
-  "revision": 14,
+  "revision": 15,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -67,6 +67,6 @@
     "schwarzkamm-0-3-0-offline-windows": "140a0fadbe0903175fb65cfe81aa668947a0640f74e6b54d35dd9f90416eaa4a",
     "schwarzkamm-0-3-0-offline-macos": "7dce69e492178225ef4a9aeb64b48a95449480a929372c7515397435ab1042aa"
   },
-  "catalogHash": "bf17114ca8e2ca2fb45bf189a0c92cef58cceff79d0730860bceae81fe590173",
-  "publishedAt": "2026-10-16T04:29:34.348Z"
+  "catalogHash": "d24f9bc14908da2595c95ee68b6c586dac936a589d840b2e484c903276488209",
+  "publishedAt": "2026-10-16T16:37:14.040Z"
 }
