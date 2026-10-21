@@ -1,5 +1,5 @@
 {
-  "revision": 27,
+  "revision": 28,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -74,8 +74,14 @@
     "golden-ocean-0-8-0-alpha-2-b0dc208-macos-any": "9ed0da35fe76cede0d3a10046ff1e3a8e1bac87ce869391efd7b1e5e54c729d1",
     "power-towers-ee0ad8b-offline-linux": "beef0aea65580b38f9234e14dbdf6fa3461e4454d7a6625906873859ec110d46",
     "power-towers-ee0ad8b-offline-windows": "1d0fda8c5d15cb741064cc013894063eb7ffed76ee4b3f852211b1187bd7ea21",
-    "power-towers-ee0ad8b-offline-macos": "ca0ac690fabbc56d2ccbfc718110ed879f80503b14deb7d2cef117828b5bd18d"
+    "power-towers-ee0ad8b-offline-macos": "ca0ac690fabbc56d2ccbfc718110ed879f80503b14deb7d2cef117828b5bd18d",
+    "pod-racing-foundation-0-2-3-795bc70-offline-linux": "795a4bfb58a213beb8e458ea8726eba83960e2cbc6a04050bdd93c571fafef86",
+    "pod-racing-foundation-0-2-3-795bc70-offline-windows": "c06693d1369a8fd940591d182e3ca9b9790e75d8e51be053ebebfd3c22ab613f",
+    "pod-racing-foundation-0-2-3-795bc70-offline-macos": "858d56d90b82f1aa886393bc0c1487f5194ac3175a9c763e9c9923dffccbdbdb",
+    "iron-litany-first-watch-70abe2c-linux-x64": "56b24d5aa8bee0010528ac85e02087b150b738616d6323cb1e95328bbdbe16fc",
+    "iron-litany-first-watch-70abe2c-windows-x64": "3c4436230f846b41214e40a7466d364d0a39ae94cdec446c9ef83cee715a68c8",
+    "iron-litany-first-watch-70abe2c-macos-any": "92054239db5e5735ea14ee3a0b0eda3608e3d8f4cb56c02837838914fe7faa2a"
   },
-  "catalogHash": "17d6bb3155f658d1e4968ba2f660218052e3d1d9df20efe4643822aec8ff8746",
-  "publishedAt": "2026-10-21T17:09:59.742Z"
+  "catalogHash": "b971d1a14bcc895e7195586deeaeb50d8ff8fda4ba815071803226640cabaff9",
+  "publishedAt": "2026-10-21T19:17:16.676Z"
 }
