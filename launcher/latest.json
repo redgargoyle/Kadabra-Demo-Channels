@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 31,
-  "publishedAt": "2026-10-21T19:47:02.290Z",
+  "revision": 32,
+  "publishedAt": "2026-10-21T19:52:02.049Z",
   "games": {
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
@@ -1290,38 +1290,38 @@
     "schwarzkamm": {
       "title": "SCHWARZKAMM · Black Ridge",
       "preview": {
-        "version": "0.3.0",
+        "version": "0.5.1",
         "hidden": false,
         "targets": {
           "linux:any": {
-            "name": "schwarzkamm-0.3.0-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
-            "sizeBytes": 6334796,
-            "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
-            "version": "0.3.0",
-            "packageId": "schwarzkamm-0-3-0-offline-linux",
+            "name": "Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/schwarzkamm-0.5.1-2aa5bfc/Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+            "sizeBytes": 6535784,
+            "sha256": "cf9ff85c7b07344788d92c3ecd0d734f36934f4129d45fe0cc1674351f9caf5f",
+            "version": "0.5.1",
+            "packageId": "schwarzkamm-0-5-1-2aa5bfc-linux",
             "kind": "web",
             "platform": "linux",
             "arch": "any"
           },
           "windows:any": {
-            "name": "schwarzkamm-0.3.0-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
-            "sizeBytes": 6334796,
-            "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
-            "version": "0.3.0",
-            "packageId": "schwarzkamm-0-3-0-offline-windows",
+            "name": "Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/schwarzkamm-0.5.1-2aa5bfc/Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+            "sizeBytes": 6535784,
+            "sha256": "cf9ff85c7b07344788d92c3ecd0d734f36934f4129d45fe0cc1674351f9caf5f",
+            "version": "0.5.1",
+            "packageId": "schwarzkamm-0-5-1-2aa5bfc-windows",
             "kind": "web",
             "platform": "windows",
             "arch": "any"
           },
           "macos:any": {
-            "name": "schwarzkamm-0.3.0-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/schwarzkamm-0.3.0-offline.zip",
-            "sizeBytes": 6334796,
-            "sha256": "1913e557c457c5999ae75c96e951ae659268cc8b8b64b83d3f6a6592b01edb86",
-            "version": "0.3.0",
-            "packageId": "schwarzkamm-0-3-0-offline-macos",
+            "name": "Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/schwarzkamm-0.5.1-2aa5bfc/Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+            "sizeBytes": 6535784,
+            "sha256": "cf9ff85c7b07344788d92c3ecd0d734f36934f4129d45fe0cc1674351f9caf5f",
+            "version": "0.5.1",
+            "packageId": "schwarzkamm-0-5-1-2aa5bfc-macos",
             "kind": "web",
             "platform": "macos",
             "arch": "any"
