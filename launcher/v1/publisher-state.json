@@ -1,5 +1,5 @@
 {
-  "revision": 28,
+  "revision": 29,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -80,8 +80,15 @@
     "pod-racing-foundation-0-2-3-795bc70-offline-macos": "858d56d90b82f1aa886393bc0c1487f5194ac3175a9c763e9c9923dffccbdbdb",
     "iron-litany-first-watch-70abe2c-linux-x64": "56b24d5aa8bee0010528ac85e02087b150b738616d6323cb1e95328bbdbe16fc",
     "iron-litany-first-watch-70abe2c-windows-x64": "3c4436230f846b41214e40a7466d364d0a39ae94cdec446c9ef83cee715a68c8",
-    "iron-litany-first-watch-70abe2c-macos-any": "92054239db5e5735ea14ee3a0b0eda3608e3d8f4cb56c02837838914fe7faa2a"
+    "iron-litany-first-watch-70abe2c-macos-any": "92054239db5e5735ea14ee3a0b0eda3608e3d8f4cb56c02837838914fe7faa2a",
+    "echoes-of-elsewhere-1-1-1-d062d1e-linux-x64": "87b84167ea2b14456233abbeb0e68472e89f50aadc3446e9e6bce0afb0e6a563",
+    "echoes-of-elsewhere-1-1-1-d062d1e-windows-x64": "2b7530a9d9bf0e5dacaa7a9663ba039c6a8d9cae4ffba523f3af49e70188e881",
+    "echoes-of-elsewhere-1-1-1-d062d1e-macos-x64": "d9d4711e3cf99d7cbd437667d30a2a99fe6e7e431a3b15a7d32f073bcb667e38",
+    "echoes-of-elsewhere-1-1-1-d062d1e-macos-arm64": "ac738c980a04bb78e9fcea3780d374b1fc1436887f53a63935ac2331220609e9",
+    "echoes-tcg-table-r3-628ab76-linux": "657be7ceec04c27cd69f3d9fcdbfa5fdfa8d1e39035776b3971ad6efb45652b7",
+    "echoes-tcg-table-r3-628ab76-windows": "d4836d4523ebe2481e9ee2ced690e0eaa8e2806751ac5f14ad2e5136e651fdfc",
+    "echoes-tcg-table-r3-628ab76-macos": "2f5314455346ad579f205ea2d2134da383b06356327777955fdf52a4ef41ac7d"
   },
-  "catalogHash": "b971d1a14bcc895e7195586deeaeb50d8ff8fda4ba815071803226640cabaff9",
-  "publishedAt": "2026-10-21T19:17:16.676Z"
+  "catalogHash": "b2f0a46a80683f644c4d39759f34a42e7d4656723e40c22333129c6cfa36be6d",
+  "publishedAt": "2026-10-21T19:31:56.495Z"
 }
