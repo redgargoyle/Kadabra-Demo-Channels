@@ -368,7 +368,7 @@
     {
       "id": "pelagic",
       "title": "The Ninth Sea",
-      "version": "0.6.0",
+      "version": "0.6.4",
       "description": "A wooden rowboat opens onto six impossible seas. There is no coast, the floor is beyond your breath, and the stone king moves when nobody is watching. Finish the Boat campaign to uncover a second recording: six very different aircraft crossing an impossible sky.",
       "platforms": [
         "linux",
@@ -378,9 +378,9 @@
       "webUrl": "https://kadabra.games/play/pelagic/",
       "status": "Available to install and play",
       "recommendedPackages": {
-        "linux:any": "pelagic-0-6-0-offline-linux",
-        "windows:any": "pelagic-0-6-0-offline-windows",
-        "macos:any": "pelagic-0-6-0-offline-macos"
+        "linux:any": "pelagic-0-6-4-d8c3b31-linux",
+        "windows:any": "pelagic-0-6-4-d8c3b31-windows",
+        "macos:any": "pelagic-0-6-4-d8c3b31-macos"
       },
       "releaseChannel": "preview"
     },
@@ -2796,6 +2796,87 @@
       "runtimeEquivalentSourceMain": "47da750a2b56db35447b1a682fd8456fcce55007",
       "qualificationEvidence": "Reviewed runtime-input equivalence to current main, anchored by retained qualified assembly. Complete build-input snapshot/reproducible compilation attestation unavailable; no false claim of exact main compilation. Retained identical-assembly startup/tutorial/save-reload qualification reused; ordinary executable and existing Unity save namespace preserved; no new native run. Linux x64 only.",
       "qualifiedAt": "2026-10-21T19:41:10.240042+00:00"
+    },
+    {
+      "gameId": "pelagic",
+      "platform": "linux",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "pelagic-0-6-4-d8c3b31-linux",
+      "version": "0.6.4",
+      "sequence": 2026102108,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pelagic-0.6.4-d8c3b31/The-Ninth-Sea-0.6.4-d8c3b31.zip",
+      "sha256": "99424d985a6d4ede1d0d400546cff66b31f597e20045f7d55dee3f20cc19ad0a",
+      "sizeBytes": 1037800,
+      "unpackedBytes": 2915796,
+      "maxFiles": 39,
+      "entrypoint": "The-Ninth-Sea-0.6.4-d8c3b31/index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Pelagic",
+      "sourceCommit": "d8c3b31efeac6c0345a2ad8fe9bd89dc6d0c1afc",
+      "qualificationEvidence": "Current36gamefiles bound to canonical commit; existing rendered opening/swim/reboard/save-reload and aircraft-control correction passed. Fullcampaign qualification partial;40narrator clips absent, text and missing-audio fallback retained. No new tests or engine build for publication.",
+      "qualifiedAt": "2026-10-21T19:43:26.472352+00:00"
+    },
+    {
+      "gameId": "pelagic",
+      "platform": "windows",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "pelagic-0-6-4-d8c3b31-windows",
+      "version": "0.6.4",
+      "sequence": 2026102108,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pelagic-0.6.4-d8c3b31/The-Ninth-Sea-0.6.4-d8c3b31.zip",
+      "sha256": "99424d985a6d4ede1d0d400546cff66b31f597e20045f7d55dee3f20cc19ad0a",
+      "sizeBytes": 1037800,
+      "unpackedBytes": 2915796,
+      "maxFiles": 39,
+      "entrypoint": "The-Ninth-Sea-0.6.4-d8c3b31/index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Pelagic",
+      "sourceCommit": "d8c3b31efeac6c0345a2ad8fe9bd89dc6d0c1afc",
+      "qualificationEvidence": "Current36gamefiles bound to canonical commit; existing rendered opening/swim/reboard/save-reload and aircraft-control correction passed. Fullcampaign qualification partial;40narrator clips absent, text and missing-audio fallback retained. No new tests or engine build for publication.",
+      "qualifiedAt": "2026-10-21T19:43:26.472401+00:00"
+    },
+    {
+      "gameId": "pelagic",
+      "platform": "macos",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "pelagic-0-6-4-d8c3b31-macos",
+      "version": "0.6.4",
+      "sequence": 2026102108,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pelagic-0.6.4-d8c3b31/The-Ninth-Sea-0.6.4-d8c3b31.zip",
+      "sha256": "99424d985a6d4ede1d0d400546cff66b31f597e20045f7d55dee3f20cc19ad0a",
+      "sizeBytes": 1037800,
+      "unpackedBytes": 2915796,
+      "maxFiles": 39,
+      "entrypoint": "The-Ninth-Sea-0.6.4-d8c3b31/index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Pelagic",
+      "sourceCommit": "d8c3b31efeac6c0345a2ad8fe9bd89dc6d0c1afc",
+      "qualificationEvidence": "Current36gamefiles bound to canonical commit; existing rendered opening/swim/reboard/save-reload and aircraft-control correction passed. Fullcampaign qualification partial;40narrator clips absent, text and missing-audio fallback retained. No new tests or engine build for publication.",
+      "qualifiedAt": "2026-10-21T19:43:26.472436+00:00"
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
