@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 25,
-  "publishedAt": "2026-10-21T04:24:22.396Z",
+  "revision": 26,
+  "publishedAt": "2026-10-21T04:43:01.584Z",
   "games": {
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
@@ -1186,38 +1186,38 @@
     "power-towers": {
       "title": "Power Towers",
       "preview": {
-        "version": "3d770fbb",
+        "version": "ee0ad8b",
         "hidden": false,
         "targets": {
           "linux:any": {
-            "name": "power-towers-3d770fbb-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/power-towers-3d770fbb-offline.zip",
-            "sizeBytes": 29006,
-            "sha256": "36cd9480150b06d306a168a65bb8e15b1fb8cd05c257204cfdcd84e3cb91973d",
-            "version": "3d770fbb",
-            "packageId": "power-towers-3d770fbb-offline-linux",
+            "name": "Power-Towers-ee0ad8b-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/power-towers-ee0ad8b/Power-Towers-ee0ad8b-web.zip",
+            "sizeBytes": 69839,
+            "sha256": "133bcd4a1630183b175cd88af4c0f9abfc35998e39eedcdbec00a6a5a6fee3d8",
+            "version": "ee0ad8b",
+            "packageId": "power-towers-ee0ad8b-offline-linux",
             "kind": "web",
             "platform": "linux",
             "arch": "any"
           },
           "windows:any": {
-            "name": "power-towers-3d770fbb-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/power-towers-3d770fbb-offline.zip",
-            "sizeBytes": 29006,
-            "sha256": "36cd9480150b06d306a168a65bb8e15b1fb8cd05c257204cfdcd84e3cb91973d",
-            "version": "3d770fbb",
-            "packageId": "power-towers-3d770fbb-offline-windows",
+            "name": "Power-Towers-ee0ad8b-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/power-towers-ee0ad8b/Power-Towers-ee0ad8b-web.zip",
+            "sizeBytes": 69839,
+            "sha256": "133bcd4a1630183b175cd88af4c0f9abfc35998e39eedcdbec00a6a5a6fee3d8",
+            "version": "ee0ad8b",
+            "packageId": "power-towers-ee0ad8b-offline-windows",
             "kind": "web",
             "platform": "windows",
             "arch": "any"
           },
           "macos:any": {
-            "name": "power-towers-3d770fbb-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/power-towers-3d770fbb-offline.zip",
-            "sizeBytes": 29006,
-            "sha256": "36cd9480150b06d306a168a65bb8e15b1fb8cd05c257204cfdcd84e3cb91973d",
-            "version": "3d770fbb",
-            "packageId": "power-towers-3d770fbb-offline-macos",
+            "name": "Power-Towers-ee0ad8b-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/power-towers-ee0ad8b/Power-Towers-ee0ad8b-web.zip",
+            "sizeBytes": 69839,
+            "sha256": "133bcd4a1630183b175cd88af4c0f9abfc35998e39eedcdbec00a6a5a6fee3d8",
+            "version": "ee0ad8b",
+            "packageId": "power-towers-ee0ad8b-offline-macos",
             "kind": "web",
             "platform": "macos",
             "arch": "any"
