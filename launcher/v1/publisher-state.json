@@ -1,5 +1,5 @@
 {
-  "revision": 24,
+  "revision": 25,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -68,8 +68,11 @@
     "schwarzkamm-0-3-0-offline-macos": "7dce69e492178225ef4a9aeb64b48a95449480a929372c7515397435ab1042aa",
     "wrong-places-0-23-1-offline-linux": "b58870d14ac36734dfae9a04355927a50241f4e1f36277bbd4f926edb79f028c",
     "wrong-places-0-23-1-offline-windows": "13b95187737cace85cb109ad183d9ebb6f9cc42ac5a43ec9af873a573f5679d4",
-    "wrong-places-0-23-1-offline-macos": "b9d9567c5c3404170bf686ceb02b4edf5320d89e6d13914eb24b65beacc241d6"
+    "wrong-places-0-23-1-offline-macos": "b9d9567c5c3404170bf686ceb02b4edf5320d89e6d13914eb24b65beacc241d6",
+    "golden-ocean-0-8-0-alpha-2-b0dc208-linux-x64": "912f4c1ebab87d178f3820e6d88d4e4f2cefa0fb8e86b5a62ec60b697e9a8fb0",
+    "golden-ocean-0-8-0-alpha-2-b0dc208-windows-x64": "a8c02640f58c0a73d1510ede2e89b7fe8751d197caeb9ff44f76656311c5b957",
+    "golden-ocean-0-8-0-alpha-2-b0dc208-macos-any": "9ed0da35fe76cede0d3a10046ff1e3a8e1bac87ce869391efd7b1e5e54c729d1"
   },
-  "catalogHash": "deee0c632d781dcb76e3374844def61c43f480a8405ab50576be9ed001f346ff",
-  "publishedAt": "2026-10-21T03:58:10.550Z"
+  "catalogHash": "7be6a628afa6ef9d26a057d491f2f7b4a417eb722c3251fdfa32bc1fc36f790a",
+  "publishedAt": "2026-10-21T04:24:22.393Z"
 }
