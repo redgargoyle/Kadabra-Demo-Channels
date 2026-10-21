@@ -1,5 +1,5 @@
 {
-  "revision": 23,
+  "revision": 24,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -65,8 +65,11 @@
     "golden-ocean-0-7-5-afd2bb9-offline-macos": "bed9291781687c61ad40e7c3446a9d15c73735be8ec323132c72af5934efa0bd",
     "schwarzkamm-0-3-0-offline-linux": "0dc85a10250f617d7d2518e3e030700c6ee5383b4873aa8f9d812576c32f9ec3",
     "schwarzkamm-0-3-0-offline-windows": "140a0fadbe0903175fb65cfe81aa668947a0640f74e6b54d35dd9f90416eaa4a",
-    "schwarzkamm-0-3-0-offline-macos": "7dce69e492178225ef4a9aeb64b48a95449480a929372c7515397435ab1042aa"
+    "schwarzkamm-0-3-0-offline-macos": "7dce69e492178225ef4a9aeb64b48a95449480a929372c7515397435ab1042aa",
+    "wrong-places-0-23-1-offline-linux": "b58870d14ac36734dfae9a04355927a50241f4e1f36277bbd4f926edb79f028c",
+    "wrong-places-0-23-1-offline-windows": "13b95187737cace85cb109ad183d9ebb6f9cc42ac5a43ec9af873a573f5679d4",
+    "wrong-places-0-23-1-offline-macos": "b9d9567c5c3404170bf686ceb02b4edf5320d89e6d13914eb24b65beacc241d6"
   },
-  "catalogHash": "e129fc3a5830e6935387deaf486988de96c75db4e8a875f402ef57f6fa4ca8d3",
-  "publishedAt": "2026-10-20T17:01:24.463Z"
+  "catalogHash": "deee0c632d781dcb76e3374844def61c43f480a8405ab50576be9ed001f346ff",
+  "publishedAt": "2026-10-21T03:58:10.550Z"
 }

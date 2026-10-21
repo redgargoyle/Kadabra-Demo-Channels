@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 23,
-  "publishedAt": "2026-10-20T17:01:24.466Z",
+  "revision": 24,
+  "publishedAt": "2026-10-21T03:58:10.552Z",
   "games": {
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
@@ -299,38 +299,38 @@
     "wrong-places": {
       "title": "Wrong Places",
       "preview": {
-        "version": "0.23.0",
+        "version": "0.23.1",
         "hidden": false,
         "targets": {
           "linux:any": {
-            "name": "wrong-places-0.23.0-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/wrong-places-0.23.0-offline.zip",
-            "sizeBytes": 125253388,
-            "sha256": "c93590dd710837a1c9141de92e7c1c22c4d137b10d4c2ccffa15a591e9c7340d",
-            "version": "0.23.0",
-            "packageId": "wrong-places-0-23-0-offline-linux",
+            "name": "Wrong-Places-0.23.1-bb86fa9.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/wrong-places-0.23.1-bb86fa9/Wrong-Places-0.23.1-bb86fa9.zip",
+            "sizeBytes": 125244515,
+            "sha256": "a9b4f4a13454f66c2b48e7cda68e742dbe272afa893b28acd1c801b654e01bb4",
+            "version": "0.23.1",
+            "packageId": "wrong-places-0-23-1-offline-linux",
             "kind": "web",
             "platform": "linux",
             "arch": "any"
           },
           "windows:any": {
-            "name": "wrong-places-0.23.0-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/wrong-places-0.23.0-offline.zip",
-            "sizeBytes": 125253388,
-            "sha256": "c93590dd710837a1c9141de92e7c1c22c4d137b10d4c2ccffa15a591e9c7340d",
-            "version": "0.23.0",
-            "packageId": "wrong-places-0-23-0-offline-windows",
+            "name": "Wrong-Places-0.23.1-bb86fa9.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/wrong-places-0.23.1-bb86fa9/Wrong-Places-0.23.1-bb86fa9.zip",
+            "sizeBytes": 125244515,
+            "sha256": "a9b4f4a13454f66c2b48e7cda68e742dbe272afa893b28acd1c801b654e01bb4",
+            "version": "0.23.1",
+            "packageId": "wrong-places-0-23-1-offline-windows",
             "kind": "web",
             "platform": "windows",
             "arch": "any"
           },
           "macos:any": {
-            "name": "wrong-places-0.23.0-offline.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/launcher-games-2026-10-15/wrong-places-0.23.0-offline.zip",
-            "sizeBytes": 125253388,
-            "sha256": "c93590dd710837a1c9141de92e7c1c22c4d137b10d4c2ccffa15a591e9c7340d",
-            "version": "0.23.0",
-            "packageId": "wrong-places-0-23-0-offline-macos",
+            "name": "Wrong-Places-0.23.1-bb86fa9.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/wrong-places-0.23.1-bb86fa9/Wrong-Places-0.23.1-bb86fa9.zip",
+            "sizeBytes": 125244515,
+            "sha256": "a9b4f4a13454f66c2b48e7cda68e742dbe272afa893b28acd1c801b654e01bb4",
+            "version": "0.23.1",
+            "packageId": "wrong-places-0-23-1-offline-macos",
             "kind": "web",
             "platform": "macos",
             "arch": "any"
