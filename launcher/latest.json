@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "revision": 32,
-  "publishedAt": "2026-10-21T19:52:02.049Z",
+  "revision": 33,
+  "publishedAt": "2026-10-21T20:00:25.450Z",
   "games": {
     "golden-keep-rts": {
       "title": "The Golden Keep: Forces of Darkness",
@@ -1134,38 +1134,38 @@
     "pod-racing-foundation": {
       "title": "Pod-racing foundation",
       "preview": {
-        "version": "0.2.3",
+        "version": "0.2.3+narration.a50ff4d",
         "hidden": false,
         "targets": {
           "linux:any": {
-            "name": "Pod-Racing-0.2.3-795bc70-web.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-795bc70/Pod-Racing-0.2.3-795bc70-web.zip",
-            "sizeBytes": 440035,
-            "sha256": "2b67910162db429db9f64c51c39a451a5ad4110d02db524a9ce98424b9183532",
-            "version": "0.2.3",
-            "packageId": "pod-racing-foundation-0-2-3-795bc70-offline-linux",
+            "name": "Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-a50ff4d/Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+            "sizeBytes": 2009647,
+            "sha256": "f6ec14c43de35b933786733f877c8bf8ed48f13ad5ded2763a8be52c26a2040a",
+            "version": "0.2.3+narration.a50ff4d",
+            "packageId": "pod-racing-0-2-3-a50ff4d-narrated-linux",
             "kind": "web",
             "platform": "linux",
             "arch": "any"
           },
           "windows:any": {
-            "name": "Pod-Racing-0.2.3-795bc70-web.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-795bc70/Pod-Racing-0.2.3-795bc70-web.zip",
-            "sizeBytes": 440035,
-            "sha256": "2b67910162db429db9f64c51c39a451a5ad4110d02db524a9ce98424b9183532",
-            "version": "0.2.3",
-            "packageId": "pod-racing-foundation-0-2-3-795bc70-offline-windows",
+            "name": "Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-a50ff4d/Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+            "sizeBytes": 2009647,
+            "sha256": "f6ec14c43de35b933786733f877c8bf8ed48f13ad5ded2763a8be52c26a2040a",
+            "version": "0.2.3+narration.a50ff4d",
+            "packageId": "pod-racing-0-2-3-a50ff4d-narrated-windows",
             "kind": "web",
             "platform": "windows",
             "arch": "any"
           },
           "macos:any": {
-            "name": "Pod-Racing-0.2.3-795bc70-web.zip",
-            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-795bc70/Pod-Racing-0.2.3-795bc70-web.zip",
-            "sizeBytes": 440035,
-            "sha256": "2b67910162db429db9f64c51c39a451a5ad4110d02db524a9ce98424b9183532",
-            "version": "0.2.3",
-            "packageId": "pod-racing-foundation-0-2-3-795bc70-offline-macos",
+            "name": "Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+            "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-a50ff4d/Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+            "sizeBytes": 2009647,
+            "sha256": "f6ec14c43de35b933786733f877c8bf8ed48f13ad5ded2763a8be52c26a2040a",
+            "version": "0.2.3+narration.a50ff4d",
+            "packageId": "pod-racing-0-2-3-a50ff4d-narrated-macos",
             "kind": "web",
             "platform": "macos",
             "arch": "any"
