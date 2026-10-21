@@ -42,7 +42,7 @@
     {
       "id": "iron-litany",
       "title": "Iron Litany",
-      "version": "v0.5.6 \u00b7 Thunder in the iron",
+      "version": "0.5.6-first-watch-tutorial.20261021+70abe2c",
       "description": "Work with a cannon crew through three watches. A playable early edition, with art, audio and balance still in review.",
       "platforms": [
         "windows",
@@ -52,9 +52,9 @@
       "webUrl": "https://kadabra.games/play/iron-litany/game/",
       "status": "Preview packages available",
       "recommendedPackages": {
-        "windows:x64": "iron-litany-1b67c16632f6-windows-x64",
-        "linux:x64": "iron-litany-b553edbe9489-linux-x64",
-        "macos:any": "iron-litany-0-5-6-offline-macos"
+        "linux:x64": "iron-litany-first-watch-70abe2c-linux-x64",
+        "windows:x64": "iron-litany-first-watch-70abe2c-windows-x64",
+        "macos:any": "iron-litany-first-watch-70abe2c-macos-any"
       }
     },
     {
@@ -330,7 +330,7 @@
     {
       "id": "pod-racing-foundation",
       "title": "Pod-racing foundation",
-      "version": "0.2.0",
+      "version": "0.2.3",
       "description": "Build a hover racer from six craft families and modular engines, chassis, cooling and controls. Race six rivals through four very different routes, with assisted handling or direct control of both engines.",
       "platforms": [
         "linux",
@@ -340,9 +340,9 @@
       "webUrl": "https://kadabra.games/studio-games/pod-racing-foundation/v0.2.0/",
       "status": "Available to install and play",
       "recommendedPackages": {
-        "linux:any": "pod-racing-foundation-0-2-0-offline-linux",
-        "windows:any": "pod-racing-foundation-0-2-0-offline-windows",
-        "macos:any": "pod-racing-foundation-0-2-0-offline-macos"
+        "linux:any": "pod-racing-foundation-0-2-3-795bc70-offline-linux",
+        "windows:any": "pod-racing-foundation-0-2-3-795bc70-offline-windows",
+        "macos:any": "pod-racing-foundation-0-2-3-795bc70-offline-macos"
       },
       "releaseChannel": "preview"
     },
@@ -2399,6 +2399,168 @@
       "sourceCommit": "ee0ad8ba3596ca0a91553b08c77853b000a72e22",
       "qualificationEvidence": "50sourcechecks reused; old actualLIVEcheckpoint preserved byte-for-byte on normal launcher update, actual Resume retained gold/lives; actualWebGLbattlefield shader verified; optionaltextcoaching and leave/launch guard passed.8approvednarrationclips missing; nofullyvoicedclaim.",
       "qualifiedAt": "2026-10-21T04:41:09.136708+00:00"
+    },
+    {
+      "id": "pod-racing-foundation-0-2-3-795bc70-offline-linux",
+      "gameId": "pod-racing-foundation",
+      "version": "0.2.3",
+      "sequence": 2026102104,
+      "platform": "linux",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-795bc70/Pod-Racing-0.2.3-795bc70-web.zip",
+      "sha256": "2b67910162db429db9f64c51c39a451a5ad4110d02db524a9ce98424b9183532",
+      "sizeBytes": 440035,
+      "unpackedBytes": 2115011,
+      "maxFiles": 21,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/Pod-Racing-Foundation",
+      "sourceCommit": "795bc70dd23f322e56bbc4c3abe29648b8feaf92",
+      "qualifiedAt": "2026-10-21T04:55:46.926573+00:00",
+      "qualificationEvidence": "47 deterministic owner tests reused. Linux production launcher runtime: hardware WebGL2, old public 0.2.0 settings/build and synthetic record fixture preserved, solo practice uses Assisted without changing saved Advanced preference or records; return-to-garage passed. Seven approved narration recordings missing; text works. No full-playthrough, listening, Windows or macOS execution claim."
+    },
+    {
+      "id": "pod-racing-foundation-0-2-3-795bc70-offline-windows",
+      "gameId": "pod-racing-foundation",
+      "version": "0.2.3",
+      "sequence": 2026102104,
+      "platform": "windows",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-795bc70/Pod-Racing-0.2.3-795bc70-web.zip",
+      "sha256": "2b67910162db429db9f64c51c39a451a5ad4110d02db524a9ce98424b9183532",
+      "sizeBytes": 440035,
+      "unpackedBytes": 2115011,
+      "maxFiles": 21,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/Pod-Racing-Foundation",
+      "sourceCommit": "795bc70dd23f322e56bbc4c3abe29648b8feaf92",
+      "qualifiedAt": "2026-10-21T04:55:46.926573+00:00",
+      "qualificationEvidence": "47 deterministic owner tests reused. Linux production launcher runtime: hardware WebGL2, old public 0.2.0 settings/build and synthetic record fixture preserved, solo practice uses Assisted without changing saved Advanced preference or records; return-to-garage passed. Seven approved narration recordings missing; text works. No full-playthrough, listening, Windows or macOS execution claim."
+    },
+    {
+      "id": "pod-racing-foundation-0-2-3-795bc70-offline-macos",
+      "gameId": "pod-racing-foundation",
+      "version": "0.2.3",
+      "sequence": 2026102104,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-795bc70/Pod-Racing-0.2.3-795bc70-web.zip",
+      "sha256": "2b67910162db429db9f64c51c39a451a5ad4110d02db524a9ce98424b9183532",
+      "sizeBytes": 440035,
+      "unpackedBytes": 2115011,
+      "maxFiles": 21,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/Pod-Racing-Foundation",
+      "sourceCommit": "795bc70dd23f322e56bbc4c3abe29648b8feaf92",
+      "qualifiedAt": "2026-10-21T04:55:46.926573+00:00",
+      "qualificationEvidence": "47 deterministic owner tests reused. Linux production launcher runtime: hardware WebGL2, old public 0.2.0 settings/build and synthetic record fixture preserved, solo practice uses Assisted without changing saved Advanced preference or records; return-to-garage passed. Seven approved narration recordings missing; text works. No full-playthrough, listening, Windows or macOS execution claim."
+    },
+    {
+      "id": "iron-litany-first-watch-70abe2c-linux-x64",
+      "gameId": "iron-litany",
+      "version": "0.5.6-first-watch-tutorial.20261021+70abe2c",
+      "sequence": 2026102105,
+      "platform": "linux",
+      "arch": "x64",
+      "format": "zip",
+      "kind": "native",
+      "url": "https://github.com/redgargoyle/Iron-Litany-Releases/releases/download/v0.5.6-first-watch-tutorial.20261021-70abe2c/IronLitany-linux-x64.zip",
+      "sha256": "3149f90dc8effe3590a760ea018a4f4d24c011d02173dd65aebe53acbec22ae5",
+      "sizeBytes": 170491465,
+      "entrypoint": "IronLitany-linux-x64/IronLitany",
+      "unpackedBytes": 348545467,
+      "maxFiles": 372,
+      "savePolicy": "native-user-data-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/iron-litany",
+      "sourceCommit": "70abe2c72781b3dd92e478d2535358ab872c7bfc",
+      "qualifiedAt": "2026-10-21T05:19:10.497908+00:00",
+      "qualificationEvidence": "58 source test files and static references plus shared rendered UI/save/reload/tab-reopen receipt reused. Exact archive/source payloads/entrypoint verified; production wrapper unchanged. Two isolated Linux starts/exits passed; native rendered UI and native saved-watch restoration not observed; Wayland/Vulkan warning effect unknown. Twelve approved-B teaching cues pending; existing 33 priest recordings preserved. No fully voiced/full campaign claim."
+    },
+    {
+      "id": "iron-litany-first-watch-70abe2c-windows-x64",
+      "gameId": "iron-litany",
+      "version": "0.5.6-first-watch-tutorial.20261021+70abe2c",
+      "sequence": 2026102105,
+      "platform": "windows",
+      "arch": "x64",
+      "format": "zip",
+      "kind": "native",
+      "url": "https://github.com/redgargoyle/Iron-Litany-Releases/releases/download/v0.5.6-first-watch-tutorial.20261021-70abe2c/IronLitany-windows-x64.zip",
+      "sha256": "5962bb5d320a5d9edda26c34780fb556a5718e1db5677e087996a8b8de2d1e2a",
+      "sizeBytes": 207384535,
+      "entrypoint": "IronLitany-windows-x64/IronLitany.exe",
+      "unpackedBytes": 437153376,
+      "maxFiles": 373,
+      "savePolicy": "native-user-data-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/iron-litany",
+      "sourceCommit": "70abe2c72781b3dd92e478d2535358ab872c7bfc",
+      "qualifiedAt": "2026-10-21T05:19:10.497908+00:00",
+      "qualificationEvidence": "58 source test files and static references plus shared rendered UI/save/reload/tab-reopen receipt reused. Exact archive/source payloads/entrypoint verified; production wrapper unchanged. Windows execution and native saved-watch restoration not observed. Twelve approved-B teaching cues pending; existing 33 priest recordings preserved. No fully voiced/full campaign claim."
+    },
+    {
+      "id": "iron-litany-first-watch-70abe2c-macos-any",
+      "gameId": "iron-litany",
+      "version": "0.5.6-first-watch-tutorial.20261021+70abe2c",
+      "sequence": 2026102105,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/iron-litany-first-watch-70abe2c/Iron-Litany-First-Watch-Runtime-70abe2c.zip",
+      "sha256": "613f3b7281015fa9c9ce031e6911195275c8e544cb9cfd7157c33c4c3cc707ef",
+      "sizeBytes": 29639642,
+      "entrypoint": "Iron-Litany-First-Watch-70abe2c/game/index.html",
+      "unpackedBytes": 35088291,
+      "maxFiles": 118,
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/iron-litany",
+      "sourceCommit": "70abe2c72781b3dd92e478d2535358ab872c7bfc",
+      "qualifiedAt": "2026-10-21T05:19:10.497908+00:00",
+      "qualificationEvidence": "58 source test files and static references plus shared rendered UI/save/reload/tab-reopen receipt reused. Exact archive/source payloads/entrypoint verified; production wrapper unchanged. Shared browser controls/save/reload passed; exact launcher Web execution not yet observed. Twelve approved-B teaching cues pending; existing 33 priest recordings preserved. No fully voiced/full campaign claim."
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
