@@ -349,7 +349,7 @@
     {
       "id": "power-towers",
       "title": "Power Towers",
-      "version": "3d770fbb",
+      "version": "ee0ad8b",
       "description": "Build a defensive maze and route enemies through numbered gates. Land furnaces consume nearby grass; hydro wheels belong on water. Every building stores its own energy, and every directed power line must be made by hand.",
       "platforms": [
         "linux",
@@ -359,9 +359,9 @@
       "webUrl": "https://kadabra.games/studio-games/power-towers/",
       "status": "Available to install and play",
       "recommendedPackages": {
-        "linux:any": "power-towers-3d770fbb-offline-linux",
-        "windows:any": "power-towers-3d770fbb-offline-windows",
-        "macos:any": "power-towers-3d770fbb-offline-macos"
+        "linux:any": "power-towers-ee0ad8b-offline-linux",
+        "windows:any": "power-towers-ee0ad8b-offline-windows",
+        "macos:any": "power-towers-ee0ad8b-offline-macos"
       },
       "releaseChannel": "preview"
     },
@@ -2318,6 +2318,87 @@
       "sourceCommit": "b0dc20898d4013c12cb9842cb658540ceee5e054",
       "qualifiedAt": "2026-10-21T04:23:30.073500+00:00",
       "qualificationEvidence": "Current source bound;14 selected recordings and127 protected mappings verified. Actual normal launcher web WebGL startup and v3 voyage/settings restoration through Continue passed on Linux host; same portable payload, macOS OS execution not performed."
+    },
+    {
+      "id": "power-towers-ee0ad8b-offline-linux",
+      "gameId": "power-towers",
+      "version": "ee0ad8b",
+      "sequence": 2026102103,
+      "platform": "linux",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/power-towers-ee0ad8b/Power-Towers-ee0ad8b-web.zip",
+      "sha256": "133bcd4a1630183b175cd88af4c0f9abfc35998e39eedcdbec00a6a5a6fee3d8",
+      "sizeBytes": 69839,
+      "unpackedBytes": 189396,
+      "maxFiles": 11,
+      "entrypoint": "play.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/Power-Towers-Stormfront",
+      "sourceCommit": "ee0ad8ba3596ca0a91553b08c77853b000a72e22",
+      "qualificationEvidence": "50sourcechecks reused; old actualLIVEcheckpoint preserved byte-for-byte on normal launcher update, actual Resume retained gold/lives; actualWebGLbattlefield shader verified; optionaltextcoaching and leave/launch guard passed.8approvednarrationclips missing; nofullyvoicedclaim.",
+      "qualifiedAt": "2026-10-21T04:41:09.136681+00:00"
+    },
+    {
+      "id": "power-towers-ee0ad8b-offline-windows",
+      "gameId": "power-towers",
+      "version": "ee0ad8b",
+      "sequence": 2026102103,
+      "platform": "windows",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/power-towers-ee0ad8b/Power-Towers-ee0ad8b-web.zip",
+      "sha256": "133bcd4a1630183b175cd88af4c0f9abfc35998e39eedcdbec00a6a5a6fee3d8",
+      "sizeBytes": 69839,
+      "unpackedBytes": 189396,
+      "maxFiles": 11,
+      "entrypoint": "play.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/Power-Towers-Stormfront",
+      "sourceCommit": "ee0ad8ba3596ca0a91553b08c77853b000a72e22",
+      "qualificationEvidence": "50sourcechecks reused; old actualLIVEcheckpoint preserved byte-for-byte on normal launcher update, actual Resume retained gold/lives; actualWebGLbattlefield shader verified; optionaltextcoaching and leave/launch guard passed.8approvednarrationclips missing; nofullyvoicedclaim.",
+      "qualifiedAt": "2026-10-21T04:41:09.136699+00:00"
+    },
+    {
+      "id": "power-towers-ee0ad8b-offline-macos",
+      "gameId": "power-towers",
+      "version": "ee0ad8b",
+      "sequence": 2026102103,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/power-towers-ee0ad8b/Power-Towers-ee0ad8b-web.zip",
+      "sha256": "133bcd4a1630183b175cd88af4c0f9abfc35998e39eedcdbec00a6a5a6fee3d8",
+      "sizeBytes": 69839,
+      "unpackedBytes": 189396,
+      "maxFiles": 11,
+      "entrypoint": "play.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/Power-Towers-Stormfront",
+      "sourceCommit": "ee0ad8ba3596ca0a91553b08c77853b000a72e22",
+      "qualificationEvidence": "50sourcechecks reused; old actualLIVEcheckpoint preserved byte-for-byte on normal launcher update, actual Resume retained gold/lives; actualWebGLbattlefield shader verified; optionaltextcoaching and leave/launch guard passed.8approvednarrationclips missing; nofullyvoicedclaim.",
+      "qualifiedAt": "2026-10-21T04:41:09.136708+00:00"
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
