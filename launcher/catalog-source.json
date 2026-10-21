@@ -330,7 +330,7 @@
     {
       "id": "pod-racing-foundation",
       "title": "Pod-racing foundation",
-      "version": "0.2.3",
+      "version": "0.2.3+narration.a50ff4d",
       "description": "Build a hover racer from six craft families and modular engines, chassis, cooling and controls. Race six rivals through four very different routes, with assisted handling or direct control of both engines.",
       "platforms": [
         "linux",
@@ -340,9 +340,9 @@
       "webUrl": "https://kadabra.games/studio-games/pod-racing-foundation/v0.2.0/",
       "status": "Available to install and play",
       "recommendedPackages": {
-        "linux:any": "pod-racing-foundation-0-2-3-795bc70-offline-linux",
-        "windows:any": "pod-racing-foundation-0-2-3-795bc70-offline-windows",
-        "macos:any": "pod-racing-foundation-0-2-3-795bc70-offline-macos"
+        "linux:any": "pod-racing-0-2-3-a50ff4d-narrated-linux",
+        "windows:any": "pod-racing-0-2-3-a50ff4d-narrated-windows",
+        "macos:any": "pod-racing-0-2-3-a50ff4d-narrated-macos"
       },
       "releaseChannel": "preview"
     },
@@ -2958,6 +2958,87 @@
       "sourceCommit": "2aa5bfce6812cc99ebc7d270a3aa0ba596d464d8",
       "qualificationEvidence": "63focusedchecks and rendered opening/formation yellowhint/Germanreplay/pause/save-reload passed;1of6lessons covered, sustained throttle andremaining5skills notclaimed.29German recordings retained;22English clips absent. Runtime bytes unchanged; only radio-review assets and metadata link excluded. Menu footer still0.5.0. Existing text/fallbacks and origin/save contract preserved.",
       "qualifiedAt": "2026-10-21T19:49:44.363437+00:00"
+    },
+    {
+      "gameId": "pod-racing-foundation",
+      "platform": "linux",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "pod-racing-0-2-3-a50ff4d-narrated-linux",
+      "version": "0.2.3+narration.a50ff4d",
+      "sequence": 2026102110,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-a50ff4d/Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+      "sha256": "f6ec14c43de35b933786733f877c8bf8ed48f13ad5ded2763a8be52c26a2040a",
+      "sizeBytes": 2009647,
+      "unpackedBytes": 3695751,
+      "maxFiles": 27,
+      "entrypoint": "index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Pod-Racing-Foundation",
+      "sourceCommit": "a50ff4d1ba35a1894759cd4df6547fc54f3e1772",
+      "qualificationEvidence": "Seven exact approved-preset tutorial MP3 hashes match committed manifest; owner15focusedchecks and prior rendered opening/save evidence reused. Currentimmutable source includes reviewed lesson text. No new graphical/full-lap/listening claim; user manages licensing, not declared cleared.",
+      "qualifiedAt": "2026-10-21T19:59:49.014031+00:00"
+    },
+    {
+      "gameId": "pod-racing-foundation",
+      "platform": "windows",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "pod-racing-0-2-3-a50ff4d-narrated-windows",
+      "version": "0.2.3+narration.a50ff4d",
+      "sequence": 2026102110,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-a50ff4d/Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+      "sha256": "f6ec14c43de35b933786733f877c8bf8ed48f13ad5ded2763a8be52c26a2040a",
+      "sizeBytes": 2009647,
+      "unpackedBytes": 3695751,
+      "maxFiles": 27,
+      "entrypoint": "index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Pod-Racing-Foundation",
+      "sourceCommit": "a50ff4d1ba35a1894759cd4df6547fc54f3e1772",
+      "qualificationEvidence": "Seven exact approved-preset tutorial MP3 hashes match committed manifest; owner15focusedchecks and prior rendered opening/save evidence reused. Currentimmutable source includes reviewed lesson text. No new graphical/full-lap/listening claim; user manages licensing, not declared cleared.",
+      "qualifiedAt": "2026-10-21T19:59:49.014054+00:00"
+    },
+    {
+      "gameId": "pod-racing-foundation",
+      "platform": "macos",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "pod-racing-0-2-3-a50ff4d-narrated-macos",
+      "version": "0.2.3+narration.a50ff4d",
+      "sequence": 2026102110,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pod-racing-0.2.3-a50ff4d/Pod-Racing-0.2.3-a50ff4d-narrated-web.zip",
+      "sha256": "f6ec14c43de35b933786733f877c8bf8ed48f13ad5ded2763a8be52c26a2040a",
+      "sizeBytes": 2009647,
+      "unpackedBytes": 3695751,
+      "maxFiles": 27,
+      "entrypoint": "index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Pod-Racing-Foundation",
+      "sourceCommit": "a50ff4d1ba35a1894759cd4df6547fc54f3e1772",
+      "qualificationEvidence": "Seven exact approved-preset tutorial MP3 hashes match committed manifest; owner15focusedchecks and prior rendered opening/save evidence reused. Currentimmutable source includes reviewed lesson text. No new graphical/full-lap/listening claim; user manages licensing, not declared cleared.",
+      "qualifiedAt": "2026-10-21T19:59:49.014065+00:00"
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
