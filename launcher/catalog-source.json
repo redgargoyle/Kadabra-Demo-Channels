@@ -216,7 +216,7 @@
     {
       "id": "echoes-of-elsewhere",
       "title": "Echoes of Elsewhere",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Journey through the Living Wilds, befriend creatures and restore its beacons. The complete game and its local save service are included. No Python installation or browser is needed.",
       "platforms": [
         "linux",
@@ -226,17 +226,17 @@
       "webUrl": null,
       "status": "Available to install and play",
       "recommendedPackages": {
-        "linux:x64": "echoes-of-elsewhere-1-1-0-bundled-linux-x64-r2",
-        "windows:x64": "echoes-of-elsewhere-1-1-0-bundled-windows-x64-r2",
-        "macos:x64": "echoes-of-elsewhere-1-1-0-bundled-macos-x64-r2",
-        "macos:arm64": "echoes-of-elsewhere-1-1-0-bundled-macos-arm64-r2"
+        "linux:x64": "echoes-of-elsewhere-1-1-1-d062d1e-linux-x64",
+        "windows:x64": "echoes-of-elsewhere-1-1-1-d062d1e-windows-x64",
+        "macos:x64": "echoes-of-elsewhere-1-1-1-d062d1e-macos-x64",
+        "macos:arm64": "echoes-of-elsewhere-1-1-1-d062d1e-macos-arm64"
       },
       "releaseChannel": "preview"
     },
     {
       "id": "echoes-of-elsewhere-tcg",
       "title": "Echoes of Elsewhere TCG",
-      "version": "Playable table edition r2 \u00b7 October 4, 2026",
+      "version": "Playable table edition r3",
       "description": "Build a creature deck, awaken its abilities and follow twelve keepers through a world waiting to be remembered. Play offline, with your collection saved on this computer.",
       "platforms": [
         "windows",
@@ -246,9 +246,9 @@
       "webUrl": "https://kadabra.games/play/echoes-tcg/",
       "status": "Preview packages available",
       "recommendedPackages": {
-        "linux:any": "echoes-tcg-table-r2-20261004-linux",
-        "macos:any": "echoes-tcg-table-r2-20261004-macos",
-        "windows:any": "echoes-tcg-table-r2-20261004-windows"
+        "linux:any": "echoes-tcg-table-r3-628ab76-linux",
+        "windows:any": "echoes-tcg-table-r3-628ab76-windows",
+        "macos:any": "echoes-tcg-table-r3-628ab76-macos"
       }
     },
     {
@@ -2561,6 +2561,212 @@
       "sourceCommit": "70abe2c72781b3dd92e478d2535358ab872c7bfc",
       "qualifiedAt": "2026-10-21T05:19:10.497908+00:00",
       "qualificationEvidence": "58 source test files and static references plus shared rendered UI/save/reload/tab-reopen receipt reused. Exact archive/source payloads/entrypoint verified; production wrapper unchanged. Shared browser controls/save/reload passed; exact launcher Web execution not yet observed. Twelve approved-B teaching cues pending; existing 33 priest recordings preserved. No fully voiced/full campaign claim."
+    },
+    {
+      "gameId": "echoes-of-elsewhere",
+      "version": "1.1.1",
+      "sourceCommit": "d062d1e2c17af2dec24e61497a0ae22006268f50",
+      "sha256": "15e843cb59a6ef91765bc41c6c5d4a1a92775d62088560a5d08744e9b388ca9a",
+      "sizeBytes": 384834286,
+      "unpackedBytes": 525480024,
+      "maxFiles": 2721,
+      "kind": "web",
+      "entrypoint": "launcher-upgrade.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes_of_elsewhere",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-of-elsewhere-1-1-1-d062d1e-linux-x64",
+      "platform": "linux",
+      "arch": "x64",
+      "backend": {
+        "executable": "runtime/python/bin/python3",
+        "script": "kadabra-service.py",
+        "entryRoute": "/"
+      },
+      "savePolicy": "kadabra-service-state-v1",
+      "minimumLauncherVersion": "0.3.0",
+      "sequence": 2026102106,
+      "qualificationEvidence": "Canonical18creature mainpayload boundperfile; unchanged bundledPython/authenticatedadapter/savepolicy reused. Four focused portchecks and one isolated actualbackend health/title smoke passed; no new graphical/playthrough or cross-platform execution claim. Gameplaycore1.1.0; packaging/launchfix1.1.1.",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/echoes-adventure-1.1.1-d062d1e/Echoes-of-Elsewhere-1.1.1-bundled-linux-x64.zip"
+    },
+    {
+      "gameId": "echoes-of-elsewhere",
+      "version": "1.1.1",
+      "sourceCommit": "d062d1e2c17af2dec24e61497a0ae22006268f50",
+      "sha256": "0166ff2f51179555d6e87d8967eafa3de6c9994dfea90394287328b4c8435c58",
+      "sizeBytes": 337041209,
+      "unpackedBytes": 390643455,
+      "maxFiles": 4356,
+      "kind": "web",
+      "entrypoint": "launcher-upgrade.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes_of_elsewhere",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-of-elsewhere-1-1-1-d062d1e-windows-x64",
+      "platform": "windows",
+      "arch": "x64",
+      "backend": {
+        "executable": "runtime/python/python.exe",
+        "script": "kadabra-service.py",
+        "entryRoute": "/"
+      },
+      "savePolicy": "kadabra-service-state-v1",
+      "minimumLauncherVersion": "0.3.0",
+      "sequence": 2026102106,
+      "qualificationEvidence": "Canonical18creature mainpayload boundperfile; unchanged bundledPython/authenticatedadapter/savepolicy reused. Four focused portchecks and one isolated actualbackend health/title smoke passed; no new graphical/playthrough or cross-platform execution claim. Gameplaycore1.1.0; packaging/launchfix1.1.1.",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/echoes-adventure-1.1.1-d062d1e/Echoes-of-Elsewhere-1.1.1-bundled-windows-x64.zip"
+    },
+    {
+      "gameId": "echoes-of-elsewhere",
+      "version": "1.1.1",
+      "sourceCommit": "d062d1e2c17af2dec24e61497a0ae22006268f50",
+      "sha256": "7a4fbe9434af7e3f3bb53822a97458cff7a639a98b3f31261deff5cd46a1f0c3",
+      "sizeBytes": 352733948,
+      "unpackedBytes": 428148698,
+      "maxFiles": 2717,
+      "kind": "web",
+      "entrypoint": "launcher-upgrade.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes_of_elsewhere",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-of-elsewhere-1-1-1-d062d1e-macos-x64",
+      "platform": "macos",
+      "arch": "x64",
+      "backend": {
+        "executable": "runtime/python/bin/python3",
+        "script": "kadabra-service.py",
+        "entryRoute": "/"
+      },
+      "savePolicy": "kadabra-service-state-v1",
+      "minimumLauncherVersion": "0.3.0",
+      "sequence": 2026102106,
+      "qualificationEvidence": "Canonical18creature mainpayload boundperfile; unchanged bundledPython/authenticatedadapter/savepolicy reused. Four focused portchecks and one isolated actualbackend health/title smoke passed; no new graphical/playthrough or cross-platform execution claim. Gameplaycore1.1.0; packaging/launchfix1.1.1.",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/echoes-adventure-1.1.1-d062d1e/Echoes-of-Elsewhere-1.1.1-bundled-macos-x64.zip"
+    },
+    {
+      "gameId": "echoes-of-elsewhere",
+      "version": "1.1.1",
+      "sourceCommit": "d062d1e2c17af2dec24e61497a0ae22006268f50",
+      "sha256": "9b1a532526218170662800a54e8e8cccd20b870a9e10e6fcf46e167c5d63a9e9",
+      "sizeBytes": 352836362,
+      "unpackedBytes": 426506155,
+      "maxFiles": 2720,
+      "kind": "web",
+      "entrypoint": "launcher-upgrade.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes_of_elsewhere",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-of-elsewhere-1-1-1-d062d1e-macos-arm64",
+      "platform": "macos",
+      "arch": "arm64",
+      "backend": {
+        "executable": "runtime/python/bin/python3",
+        "script": "kadabra-service.py",
+        "entryRoute": "/"
+      },
+      "savePolicy": "kadabra-service-state-v1",
+      "minimumLauncherVersion": "0.3.0",
+      "sequence": 2026102106,
+      "qualificationEvidence": "Canonical18creature mainpayload boundperfile; unchanged bundledPython/authenticatedadapter/savepolicy reused. Four focused portchecks and one isolated actualbackend health/title smoke passed; no new graphical/playthrough or cross-platform execution claim. Gameplaycore1.1.0; packaging/launchfix1.1.1.",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/echoes-adventure-1.1.1-d062d1e/Echoes-of-Elsewhere-1.1.1-bundled-macos-arm64.zip"
+    },
+    {
+      "gameId": "echoes-of-elsewhere-tcg",
+      "version": "Playable table edition r3",
+      "sourceCommit": "628ab767bda5d5b00a62399978f690c49121b8ce",
+      "sha256": "46f79decc2dd83b65a7541c13b7dbef331d2d8a1782af2ca2a37803c442ae192",
+      "sizeBytes": 249537184,
+      "unpackedBytes": 256264758,
+      "maxFiles": 822,
+      "kind": "web",
+      "entrypoint": "Echoes-of-Elsewhere-TCG/web/index.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes-of-elsewhere-tcg",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-tcg-table-r3-628ab76-linux",
+      "platform": "linux",
+      "arch": "any",
+      "savePolicy": "isolated-browser-v1",
+      "sequence": 2026102107,
+      "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-21-r3-628ab76/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-21-r3.zip",
+      "qualificationEvidence": "Canonical628ab76main table/codex with18native studies, source/hashboundallwebmembers. Existingrules/save keys retained; one isolated staticserver table/codex/manifest HTTPsmoke passed. No new renderedtabletest:Chrome disconnected; existing relevant source/edition receipts reused.206candidateoverlay excluded."
+    },
+    {
+      "gameId": "echoes-of-elsewhere-tcg",
+      "version": "Playable table edition r3",
+      "sourceCommit": "628ab767bda5d5b00a62399978f690c49121b8ce",
+      "sha256": "46f79decc2dd83b65a7541c13b7dbef331d2d8a1782af2ca2a37803c442ae192",
+      "sizeBytes": 249537184,
+      "unpackedBytes": 256264758,
+      "maxFiles": 822,
+      "kind": "web",
+      "entrypoint": "Echoes-of-Elsewhere-TCG/web/index.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes-of-elsewhere-tcg",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-tcg-table-r3-628ab76-windows",
+      "platform": "windows",
+      "arch": "any",
+      "savePolicy": "isolated-browser-v1",
+      "sequence": 2026102107,
+      "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-21-r3-628ab76/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-21-r3.zip",
+      "qualificationEvidence": "Canonical628ab76main table/codex with18native studies, source/hashboundallwebmembers. Existingrules/save keys retained; one isolated staticserver table/codex/manifest HTTPsmoke passed. No new renderedtabletest:Chrome disconnected; existing relevant source/edition receipts reused.206candidateoverlay excluded."
+    },
+    {
+      "gameId": "echoes-of-elsewhere-tcg",
+      "version": "Playable table edition r3",
+      "sourceCommit": "628ab767bda5d5b00a62399978f690c49121b8ce",
+      "sha256": "46f79decc2dd83b65a7541c13b7dbef331d2d8a1782af2ca2a37803c442ae192",
+      "sizeBytes": 249537184,
+      "unpackedBytes": 256264758,
+      "maxFiles": 822,
+      "kind": "web",
+      "entrypoint": "Echoes-of-Elsewhere-TCG/web/index.html",
+      "format": "zip",
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/echoes-of-elsewhere-tcg",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "id": "echoes-tcg-table-r3-628ab76-macos",
+      "platform": "macos",
+      "arch": "any",
+      "savePolicy": "isolated-browser-v1",
+      "sequence": 2026102107,
+      "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-21-r3-628ab76/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-21-r3.zip",
+      "qualificationEvidence": "Canonical628ab76main table/codex with18native studies, source/hashboundallwebmembers. Existingrules/save keys retained; one isolated staticserver table/codex/manifest HTTPsmoke passed. No new renderedtabletest:Chrome disconnected; existing relevant source/edition receipts reused.206candidateoverlay excluded."
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
