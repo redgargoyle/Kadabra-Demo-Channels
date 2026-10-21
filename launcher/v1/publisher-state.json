@@ -1,5 +1,5 @@
 {
-  "revision": 29,
+  "revision": 30,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -87,8 +87,9 @@
     "echoes-of-elsewhere-1-1-1-d062d1e-macos-arm64": "ac738c980a04bb78e9fcea3780d374b1fc1436887f53a63935ac2331220609e9",
     "echoes-tcg-table-r3-628ab76-linux": "657be7ceec04c27cd69f3d9fcdbfa5fdfa8d1e39035776b3971ad6efb45652b7",
     "echoes-tcg-table-r3-628ab76-windows": "d4836d4523ebe2481e9ee2ced690e0eaa8e2806751ac5f14ad2e5136e651fdfc",
-    "echoes-tcg-table-r3-628ab76-macos": "2f5314455346ad579f205ea2d2134da383b06356327777955fdf52a4ef41ac7d"
+    "echoes-tcg-table-r3-628ab76-macos": "2f5314455346ad579f205ea2d2134da383b06356327777955fdf52a4ef41ac7d",
+    "pixie-garden-1-3-0-linux-x64": "4bfd6b3323eb9efe78455dd9618b8de08d501b6a7335b5cc5814ec0c0476aced"
   },
-  "catalogHash": "b2f0a46a80683f644c4d39759f34a42e7d4656723e40c22333129c6cfa36be6d",
-  "publishedAt": "2026-10-21T19:31:56.495Z"
+  "catalogHash": "0117bd3c5906ded95c86f4111d5d8f82c1a023aee6cce3c22e0d523d2d606c94",
+  "publishedAt": "2026-10-21T19:42:15.235Z"
 }
