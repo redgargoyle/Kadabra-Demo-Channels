@@ -114,7 +114,7 @@
     {
       "id": "golden-ocean",
       "title": "Golden Keep: Golden Ocean",
-      "version": "v0.7.5-desktop-20260930",
+      "version": "0.8.0-alpha.2",
       "description": "Captain an enormous wooden hulk carrying sixty people to a new home. Study the chart, give sail orders and allow the crew time to answer. Walk the working decks and return to the helm as the weather changes: everyone aboard depends on the passage you choose.",
       "platforms": [
         "windows",
@@ -124,9 +124,9 @@
       "webUrl": "https://kadabra.games/demos/golden-ocean/",
       "status": "Preview packages available",
       "recommendedPackages": {
-        "windows:x64": "golden-ocean-4ee6ae9079c4-windows-x64",
-        "linux:x64": "golden-ocean-bcd35d6d555b-linux-x64",
-        "macos:any": "golden-ocean-0-7-5-afd2bb9-offline-macos"
+        "windows:x64": "golden-ocean-0-8-0-alpha-2-b0dc208-windows-x64",
+        "linux:x64": "golden-ocean-0-8-0-alpha-2-b0dc208-linux-x64",
+        "macos:any": "golden-ocean-0-8-0-alpha-2-b0dc208-macos-any"
       }
     },
     {
@@ -2233,6 +2233,91 @@
       "savePolicy": "web-origin-profile-v1",
       "sourceRepository": "https://github.com/redgargoyle/wrong-places",
       "sourceCommit": "bb86fa96ab5ac5f55c86a3491618d8af736abcf1"
+    },
+    {
+      "id": "golden-ocean-0-8-0-alpha-2-b0dc208-linux-x64",
+      "gameId": "golden-ocean",
+      "version": "0.8.0-alpha.2",
+      "sequence": 2026102102,
+      "platform": "linux",
+      "arch": "x64",
+      "format": "tar.gz",
+      "kind": "native",
+      "url": "https://github.com/redgargoyle/Golden-Ocean-Releases/releases/download/v0.8.0-alpha.2-b0dc208/Golden-Ocean-0.8.0-alpha.2-b0dc208-Linux-x64.tar.gz",
+      "sha256": "697f5974c4c7f3316f75d06a26bec98baa0c76278c45d94287d41d098db60cb3",
+      "sizeBytes": 994403278,
+      "allowedHosts": [
+        "kadabra.games",
+        "www.kadabra.games",
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "entrypoint": "GoldenOcean-linux-x64/GoldenOcean",
+      "unpackedBytes": 1192476825,
+      "maxFiles": 76,
+      "savePolicy": "native-user-data-v1",
+      "qualifiedAt": "2026-10-21T04:23:30.073500+00:00",
+      "qualificationEvidence": "Current source bound;14 selected recordings and127 protected mappings verified. Isolated native Linux WebGL startup and old0.7.5 voyage/settings restoration through actual Continue passed; existing Electron44.5.1 shell retained.",
+      "sourceRepository": "https://github.com/redgargoyle/goldenkeep-hulks",
+      "sourceCommit": "b0dc20898d4013c12cb9842cb658540ceee5e054"
+    },
+    {
+      "id": "golden-ocean-0-8-0-alpha-2-b0dc208-windows-x64",
+      "gameId": "golden-ocean",
+      "version": "0.8.0-alpha.2",
+      "sequence": 2026102102,
+      "platform": "windows",
+      "arch": "x64",
+      "format": "zip",
+      "kind": "native",
+      "url": "https://github.com/redgargoyle/Golden-Ocean-Releases/releases/download/v0.8.0-alpha.2-b0dc208/Golden-Ocean-0.8.0-alpha.2-b0dc208-Windows-x64.zip",
+      "sha256": "ee3841225fcf115ee89219a601168e25d97566382c6e92db2790734142c3a3da",
+      "sizeBytes": 1033498339,
+      "allowedHosts": [
+        "kadabra.games",
+        "www.kadabra.games",
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "entrypoint": "GoldenOcean-win32-x64/GoldenOcean.exe",
+      "unpackedBytes": 1281084734,
+      "maxFiles": 74,
+      "savePolicy": "native-user-data-v1",
+      "qualifiedAt": "2026-10-21T04:23:30.073500+00:00",
+      "qualificationEvidence": "Current source bound;14 selected recordings and127 protected mappings verified. Existing verified Windows x64 shell bytes retained; PE and archive contract verified; identical Linux-qualified app.asar; Windows OS execution not performed.",
+      "sourceRepository": "https://github.com/redgargoyle/goldenkeep-hulks",
+      "sourceCommit": "b0dc20898d4013c12cb9842cb658540ceee5e054"
+    },
+    {
+      "id": "golden-ocean-0-8-0-alpha-2-b0dc208-macos-any",
+      "gameId": "golden-ocean",
+      "version": "0.8.0-alpha.2",
+      "sequence": 2026102102,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Golden-Ocean-Releases/releases/download/v0.8.0-alpha.2-b0dc208/Golden-Ocean-0.8.0-alpha.2-b0dc208-web.zip",
+      "sha256": "2abe31348c247cea53532cfcf4134d99367a42afca56f5aa399f04b9743b508c",
+      "sizeBytes": 871219230,
+      "unpackedBytes": 895603617,
+      "maxFiles": 2294,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/goldenkeep-hulks",
+      "sourceCommit": "b0dc20898d4013c12cb9842cb658540ceee5e054",
+      "qualifiedAt": "2026-10-21T04:23:30.073500+00:00",
+      "qualificationEvidence": "Current source bound;14 selected recordings and127 protected mappings verified. Actual normal launcher web WebGL startup and v3 voyage/settings restoration through Continue passed on Linux host; same portable payload, macOS OS execution not performed."
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
