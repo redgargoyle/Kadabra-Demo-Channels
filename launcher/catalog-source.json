@@ -95,7 +95,7 @@
     {
       "id": "wrong-places",
       "title": "Wrong Places",
-      "version": "0.23.0",
+      "version": "0.23.1",
       "description": "Eleven ordinary-looking places refuse to follow ordinary rules. A coastal walk, a small theatre, a quiet room and an impossible map each ask you to notice something different\u2014and use what you learn to leave.",
       "platforms": [
         "linux",
@@ -105,9 +105,9 @@
       "webUrl": "https://kadabra.games/studio-games/wrong-places-0.23.0/?practice&session=website-staging-023",
       "status": "Available to install and play",
       "recommendedPackages": {
-        "linux:any": "wrong-places-0-23-0-offline-linux",
-        "windows:any": "wrong-places-0-23-0-offline-windows",
-        "macos:any": "wrong-places-0-23-0-offline-macos"
+        "linux:any": "wrong-places-0-23-1-offline-linux",
+        "windows:any": "wrong-places-0-23-1-offline-windows",
+        "macos:any": "wrong-places-0-23-1-offline-macos"
       },
       "releaseChannel": "preview"
     },
@@ -2158,6 +2158,81 @@
       "qualification": "qualified",
       "savePolicy": "web-origin-profile-v1",
       "sourceSiteCommit": "1d069cc09c823a1154d734c46d0bef176e3ddf46"
+    },
+    {
+      "id": "wrong-places-0-23-1-offline-linux",
+      "gameId": "wrong-places",
+      "version": "0.23.1",
+      "sequence": 2026102101,
+      "platform": "linux",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/wrong-places-0.23.1-bb86fa9/Wrong-Places-0.23.1-bb86fa9.zip",
+      "sha256": "a9b4f4a13454f66c2b48e7cda68e742dbe272afa893b28acd1c801b654e01bb4",
+      "sizeBytes": 125244515,
+      "unpackedBytes": 127608547,
+      "maxFiles": 651,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/wrong-places",
+      "sourceCommit": "bb86fa96ab5ac5f55c86a3491618d8af736abcf1"
+    },
+    {
+      "id": "wrong-places-0-23-1-offline-windows",
+      "gameId": "wrong-places",
+      "version": "0.23.1",
+      "sequence": 2026102101,
+      "platform": "windows",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/wrong-places-0.23.1-bb86fa9/Wrong-Places-0.23.1-bb86fa9.zip",
+      "sha256": "a9b4f4a13454f66c2b48e7cda68e742dbe272afa893b28acd1c801b654e01bb4",
+      "sizeBytes": 125244515,
+      "unpackedBytes": 127608547,
+      "maxFiles": 651,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/wrong-places",
+      "sourceCommit": "bb86fa96ab5ac5f55c86a3491618d8af736abcf1"
+    },
+    {
+      "id": "wrong-places-0-23-1-offline-macos",
+      "gameId": "wrong-places",
+      "version": "0.23.1",
+      "sequence": 2026102101,
+      "platform": "macos",
+      "arch": "any",
+      "format": "zip",
+      "kind": "web",
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/wrong-places-0.23.1-bb86fa9/Wrong-Places-0.23.1-bb86fa9.zip",
+      "sha256": "a9b4f4a13454f66c2b48e7cda68e742dbe272afa893b28acd1c801b654e01bb4",
+      "sizeBytes": 125244515,
+      "unpackedBytes": 127608547,
+      "maxFiles": 651,
+      "entrypoint": "index.html",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "savePolicy": "web-origin-profile-v1",
+      "sourceRepository": "https://github.com/redgargoyle/wrong-places",
+      "sourceCommit": "bb86fa96ab5ac5f55c86a3491618d8af736abcf1"
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
