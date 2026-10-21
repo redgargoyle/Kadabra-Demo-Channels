@@ -60,7 +60,7 @@
     {
       "id": "pixie-garden",
       "title": "Pixie Garden",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "description": "The current Pixie Garden development demo. Available for Linux, with Windows and controller coverage still in development.",
       "platforms": [
         "linux"
@@ -68,7 +68,7 @@
       "webUrl": null,
       "status": "Preview packages available",
       "recommendedPackages": {
-        "linux:x64": "pixie-garden-1-2-1-linux-x64"
+        "linux:x64": "pixie-garden-1-3-0-linux-x64"
       },
       "hidden": false,
       "releaseChannel": "preview"
@@ -2767,6 +2767,35 @@
       "sequence": 2026102107,
       "url": "https://github.com/redgargoyle/Echoes-of-Elsewhere-Releases/releases/download/tcg-table-edition-2026-10-21-r3-628ab76/Echoes-of-Elsewhere-TCG-Table-Edition-2026-10-21-r3.zip",
       "qualificationEvidence": "Canonical628ab76main table/codex with18native studies, source/hashboundallwebmembers. Existingrules/save keys retained; one isolated staticserver table/codex/manifest HTTPsmoke passed. No new renderedtabletest:Chrome disconnected; existing relevant source/edition receipts reused.206candidateoverlay excluded."
+    },
+    {
+      "gameId": "pixie-garden",
+      "version": "1.3.0",
+      "platform": "linux",
+      "arch": "x64",
+      "kind": "native",
+      "format": "zip",
+      "sha256": "a8c4d8e21de1fb63d4c3fb063f0c6473093205f36facc08b1aaeeb3472fe7627",
+      "sizeBytes": 72868552,
+      "unpackedBytes": 180389443,
+      "maxFiles": 149,
+      "entrypoint": "PixieGarden-1.3.0-linux/PixieGarden.x86_64",
+      "args": [],
+      "savePolicy": "unity-persistent-data-v1",
+      "id": "pixie-garden-1-3-0-linux-x64",
+      "sequence": 2026102101,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/pixie-garden-1.3.0-47da750-equivalent/PixieGarden-1.3.0-47da750-equivalent-Linux-x64.zip",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "sourceRepository": "https://github.com/redgargoyle/PixieGarden",
+      "sourceCommit": "8379493d0813761db7c5da16b29c37db81eb08d5",
+      "runtimeEquivalentSourceMain": "47da750a2b56db35447b1a682fd8456fcce55007",
+      "qualificationEvidence": "Reviewed runtime-input equivalence to current main, anchored by retained qualified assembly. Complete build-input snapshot/reproducible compilation attestation unavailable; no false claim of exact main compilation. Retained identical-assembly startup/tutorial/save-reload qualification reused; ordinary executable and existing Unity save namespace preserved; no new native run. Linux x64 only.",
+      "qualifiedAt": "2026-10-21T19:41:10.240042+00:00"
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
