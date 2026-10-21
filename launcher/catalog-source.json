@@ -387,7 +387,7 @@
     {
       "id": "schwarzkamm",
       "title": "SCHWARZKAMM \u00b7 Black Ridge",
-      "version": "0.3.0",
+      "version": "0.5.1",
       "description": "Fly Operation Abendlied: a continuous fifteen-minute bomber sortie through nine phases, with a 512-aircraft formation, coordinated interceptions, a bombing run and withdrawal. German crew recordings and English or German captions accompany the flight. The seven-base archive campaign is included.",
       "platforms": [
         "linux",
@@ -398,9 +398,9 @@
       "status": "Available to install and play",
       "releaseChannel": "preview",
       "recommendedPackages": {
-        "linux:any": "schwarzkamm-0-3-0-offline-linux",
-        "windows:any": "schwarzkamm-0-3-0-offline-windows",
-        "macos:any": "schwarzkamm-0-3-0-offline-macos"
+        "linux:any": "schwarzkamm-0-5-1-2aa5bfc-linux",
+        "windows:any": "schwarzkamm-0-5-1-2aa5bfc-windows",
+        "macos:any": "schwarzkamm-0-5-1-2aa5bfc-macos"
       }
     }
   ],
@@ -2877,6 +2877,87 @@
       "sourceCommit": "d8c3b31efeac6c0345a2ad8fe9bd89dc6d0c1afc",
       "qualificationEvidence": "Current36gamefiles bound to canonical commit; existing rendered opening/swim/reboard/save-reload and aircraft-control correction passed. Fullcampaign qualification partial;40narrator clips absent, text and missing-audio fallback retained. No new tests or engine build for publication.",
       "qualifiedAt": "2026-10-21T19:43:26.472436+00:00"
+    },
+    {
+      "gameId": "schwarzkamm",
+      "platform": "linux",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "schwarzkamm-0-5-1-2aa5bfc-linux",
+      "version": "0.5.1",
+      "sequence": 2026102109,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/schwarzkamm-0.5.1-2aa5bfc/Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+      "sha256": "cf9ff85c7b07344788d92c3ecd0d734f36934f4129d45fe0cc1674351f9caf5f",
+      "sizeBytes": 6535784,
+      "unpackedBytes": 8394302,
+      "maxFiles": 60,
+      "entrypoint": "Schwarzkamm-0.5.1-2aa5bfc/index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Schwarzkamm",
+      "sourceCommit": "2aa5bfce6812cc99ebc7d270a3aa0ba596d464d8",
+      "qualificationEvidence": "63focusedchecks and rendered opening/formation yellowhint/Germanreplay/pause/save-reload passed;1of6lessons covered, sustained throttle andremaining5skills notclaimed.29German recordings retained;22English clips absent. Runtime bytes unchanged; only radio-review assets and metadata link excluded. Menu footer still0.5.0. Existing text/fallbacks and origin/save contract preserved.",
+      "qualifiedAt": "2026-10-21T19:49:44.363405+00:00"
+    },
+    {
+      "gameId": "schwarzkamm",
+      "platform": "windows",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "schwarzkamm-0-5-1-2aa5bfc-windows",
+      "version": "0.5.1",
+      "sequence": 2026102109,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/schwarzkamm-0.5.1-2aa5bfc/Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+      "sha256": "cf9ff85c7b07344788d92c3ecd0d734f36934f4129d45fe0cc1674351f9caf5f",
+      "sizeBytes": 6535784,
+      "unpackedBytes": 8394302,
+      "maxFiles": 60,
+      "entrypoint": "Schwarzkamm-0.5.1-2aa5bfc/index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Schwarzkamm",
+      "sourceCommit": "2aa5bfce6812cc99ebc7d270a3aa0ba596d464d8",
+      "qualificationEvidence": "63focusedchecks and rendered opening/formation yellowhint/Germanreplay/pause/save-reload passed;1of6lessons covered, sustained throttle andremaining5skills notclaimed.29German recordings retained;22English clips absent. Runtime bytes unchanged; only radio-review assets and metadata link excluded. Menu footer still0.5.0. Existing text/fallbacks and origin/save contract preserved.",
+      "qualifiedAt": "2026-10-21T19:49:44.363427+00:00"
+    },
+    {
+      "gameId": "schwarzkamm",
+      "platform": "macos",
+      "arch": "any",
+      "kind": "web",
+      "format": "zip",
+      "savePolicy": "web-origin-profile-v1",
+      "allowedHosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "qualification": "qualified",
+      "id": "schwarzkamm-0-5-1-2aa5bfc-macos",
+      "version": "0.5.1",
+      "sequence": 2026102109,
+      "url": "https://github.com/redgargoyle/Kadabra-Demo-Channels/releases/download/schwarzkamm-0.5.1-2aa5bfc/Schwarzkamm-0.5.1-2aa5bfc-web.zip",
+      "sha256": "cf9ff85c7b07344788d92c3ecd0d734f36934f4129d45fe0cc1674351f9caf5f",
+      "sizeBytes": 6535784,
+      "unpackedBytes": 8394302,
+      "maxFiles": 60,
+      "entrypoint": "Schwarzkamm-0.5.1-2aa5bfc/index.html",
+      "sourceRepository": "https://github.com/redgargoyle/Schwarzkamm",
+      "sourceCommit": "2aa5bfce6812cc99ebc7d270a3aa0ba596d464d8",
+      "qualificationEvidence": "63focusedchecks and rendered opening/formation yellowhint/Germanreplay/pause/save-reload passed;1of6lessons covered, sustained throttle andremaining5skills notclaimed.29German recordings retained;22English clips absent. Runtime bytes unchanged; only radio-review assets and metadata link excluded. Menu footer still0.5.0. Existing text/fallbacks and origin/save contract preserved.",
+      "qualifiedAt": "2026-10-21T19:49:44.363437+00:00"
     }
   ],
   "validUntil": "2026-10-18T18:21:58.577Z",
