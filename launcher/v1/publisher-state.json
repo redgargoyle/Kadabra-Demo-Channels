@@ -1,5 +1,5 @@
 {
-  "revision": 34,
+  "revision": 35,
   "identities": {
     "pixie-garden-1-2-1-linux-x64": "a74fea92e5c9541c63d25239bfc08f2daadb5b06624e5dd98810259e990c6271",
     "poot-poot-browser-2026-10-10": "7364e51b0f082c575b3b282c8f6b858da2f153c7564d85ea9829e064f8defe58",
@@ -99,6 +99,6 @@
     "pod-racing-0-2-3-a50ff4d-narrated-windows": "ebe0bcd3221f2e06e1cc59061d107da756d7ca66121ce9f64365c26af230a03f",
     "pod-racing-0-2-3-a50ff4d-narrated-macos": "77e299c1a21fdfa3860b499adb0634a4f9ca6fcd4e2040984d46b4856cf367fb"
   },
-  "catalogHash": "f3cc3624031cec7d1e91553404424154e93b398e78c58d5b7b99175194f99c36",
-  "publishedAt": "2026-10-22T04:41:01.442Z"
+  "catalogHash": "c1a8a952241a90f3591f22bb389c1a50266ea6605a0359accf7a2d9e75103583",
+  "publishedAt": "2026-10-22T17:08:47.565Z"
 }
